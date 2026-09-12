@@ -4,28 +4,28 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 
 ## Identificación
 
-- **Nombre comercial**:
-- **Razón social**:
-- **NIT**:
-- **Ciudad / dirección**:
-- **Tipo de cocina / propuesta**:
-- **Categoría**: (restaurante / cafetería / bar / heladería / …)
+- **Nombre comercial**: Restaurante Komo Asian Concept (marca operativa) — grupo TRATTORIAS Y PASTIFICIOS S.A.S.
+- **Razón social**: Trattorias y Pastificios S.A.S.
+- **NIT**: 900322813
+- **Ciudad / dirección**: Manizales — Cra 24a # 59-15
+- **Tipo de cocina / propuesta**: Múltiples marcas bajo la misma razón social: KOMO (asiática), ONO, DOYO — cocinas diferentes por marca
+- **Categoría**: restaurante
 
 ## Contactos
 
-- **Contacto principal**: nombre, cargo, teléfono, email.
-- **Contacto técnico**: nombre, cargo, teléfono, email.
-- **Contacto administrativo**: nombre, cargo, teléfono, email.
+- **Contacto principal**: Lorena Briceño — representante legal — 3176372474
+- **Contacto operativo**: Juan Pablo López — 3245170251 (correo no registrado en tabla)
+- **Correo principal**: _por confirmar con Lorena Briceño_
+- **Contacto técnico**: _pendiente_
+- **Contacto administrativo**: _pendiente_
 
 ## Alcance contractual asignado (Parágrafo Primero – Cláusula Primera)
 
 - Usuarios AriCRM: hasta 3. Nombres: _pendiente_.
-- Líneas de WhatsApp: 3. Números: _pendiente_.
+- Líneas de WhatsApp: 3. Números: _pendiente_ (principal actual: 3245170251).
 - Contactos disponibles: hasta 2000.
 
 ## Hitos temporales (con evidencia)
-
-Estos campos anclan los plazos contractuales. La evidencia debe existir; no bastan las fechas declaradas.
 
 - **Fecha de caracterización**: _pendiente_ · evidencia: _pendiente_
 - **Fecha estimada de activación**: _pendiente_
@@ -37,23 +37,30 @@ Estos campos anclan los plazos contractuales. La evidencia debe existir; no bast
 
 ## Canales digitales existentes (obligación 6)
 
-- WhatsApp (número principal actual):
-- Instagram:
-- Facebook:
-- Web / dominio propio:
-- Otros:
+- WhatsApp (número principal actual): 3245170251
+- Instagram: _pendiente_
+- Facebook: _pendiente_
+- Web / dominio propio: _pendiente_
+- Otros: _pendiente_
 
 ## Restricciones específicas del cliente
 
-- Horarios de operación:
-- Zonas de cobertura de domicilios:
-- Métodos de pago aceptados:
-- Restricciones legales/sanitarias:
-- Otras:
+- Horarios de operación: _pendiente_
+- Zonas de cobertura de domicilios: _pendiente_
+- Métodos de pago aceptados: _pendiente_
+- Restricciones legales/sanitarias: _pendiente_
+- **Multi-marca**: opera 3 marcas con cocinas diferentes (KOMO, ONO, DOYO). Nota Sandra 31/08: podría requerir **2 configuraciones/robots** (uno para KOMO y otro para ONO+DOYO). A validar contra el alcance contractual (3 líneas WA por establecimiento) y confirmar con la Cámara si esto se acomoda dentro del alcance de UN tenant o requiere tratamiento especial.
+
+## Contexto pre-caracterización (línea base recibida de la Cámara)
+
+- **Estado en programa**: Renovada 2026 — reunión inicial realizada. **Aceptación aún no confirmada explícitamente** en la fuente; la rep legal manifestó que consultaría.
+- **Afectación**: Daños estructurales y cierre de operaciones. Pérdida total de cristalería, inventario de vinos y menaje.
+- **Operación actual**: _pendiente confirmar_.
+- **Fuente**: gestión Sandra 31/08/2026 con Lorena Briceño (rep legal); mensaje inicial por WhatsApp pendiente de respuesta.
 
 ## Estado
 
-El estado de cada obligación se consulta en `TASKS.md` de esta misma carpeta. **No duplicar aquí**: si se necesita snapshot para reunión, exportarlo desde `TASKS.md`.
+El estado de cada obligación se consulta en `TASKS.md` de esta misma carpeta.
 
 ## SLA de soporte (obligación 11)
 

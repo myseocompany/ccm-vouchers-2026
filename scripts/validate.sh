@@ -84,33 +84,16 @@ while IFS= read -r -d '' src; do
 done < <(find . -type f -name '*.md' -not -path './.git/*' -print0)
 [[ $broken -eq 0 ]] && ok "sin referencias rotas"
 
-# ---------- 7. CLIENTE.md poblados (mínimo NIT y contacto principal) ----------
-section "CLIENTE.md poblados"
-missing_data=0
-for c in "${expected_clients[@]}"; do
-  f="clientes/$c/CLIENTE.md"
-  [[ ! -f "$f" ]] && continue
-  grep -q '^- \*\*NIT\*\*:\s*$' "$f"                       && { warn "$c: NIT vacío"; missing_data=$((missing_data+1)); }
-  grep -q '^- \*\*Contacto principal\*\*:\s*$' "$f"       && { warn "$c: Contacto principal vacío"; missing_data=$((missing_data+1)); }
-  grep -q '^- \*\*Ciudad / dirección\*\*:\s*$' "$f"       && { warn "$c: Ciudad vacía"; missing_data=$((missing_data+1)); }
-done
-[[ $missing_data -eq 0 ]] && ok "todos los CLIENTE.md tienen datos básicos"
-
-# ---------- 8. Tareas 'completa' sin evidencia enlazada ----------
-section "Tareas 'completa' sin evidencia"
-sin_evidencia=0
-while IFS= read -r -d '' f; do
-  # Solo filas de tabla con ID tipo C-XX o P-XXX seguido del estado 'completa'
-  # Excluye el encabezado "Estados: ..." usando el requisito de que la línea empiece con | ID
-  while IFS= read -r line; do
-    # requiere ruta a archivo con extensión reconocida como evidencia
-    if [[ ! "$line" =~ \.(md|pdf|png|jpg|jpeg|csv|log|xlsx|docx)([\ \|\`\)\,]|$) ]]; then
-      warn "$f: tarea completa sin ruta a evidencia -> ${line:0:80}..."
-      sin_evidencia=$((sin_evidencia+1))
-    fi
-  done < <(grep -E '^\|\s*[A-Z]-[0-9]+\s*\|.*\bcompleta\b' "$f" 2>/dev/null || true)
-done < <(find . -name 'TASKS.md' -not -path '*/_template/*' -print0)
-[[ $sin_evidencia -eq 0 ]] && ok "todas las tareas completas tienen evidencia"
+# ---------- 7. Campos básicos y evidencia de tareas completas ----------
+section "Registros y evidencia"
+records_output=$(python3 "$ROOT/scripts/validate_records.py" "$ROOT")
+records_status=$?
+echo "$records_output"
+record_warnings=$(printf '%s\n' "$records_output" | grep -c '^  warn:' || true)
+warnings=$((warnings + record_warnings))
+if [[ $records_status -ne 0 ]]; then
+  fail "registros inválidos; ver errores anteriores"
+fi
 
 # ---------- Resumen ----------
 section "Resumen"

@@ -4,28 +4,26 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 
 ## Identificación
 
-- **Nombre comercial**:
-- **Razón social**:
-- **NIT**:
-- **Ciudad / dirección**:
-- **Tipo de cocina / propuesta**:
-- **Categoría**: (restaurante / cafetería / bar / heladería / …)
+- **Nombre comercial**: Manuelina
+- **Razón social**: _pendiente confirmar_
+- **NIT**: 1053854482
+- **Ciudad / dirección**: Manizales — Calle 61 # 23-07 (sede afectada; colapso total)
+- **Tipo de cocina / propuesta**: _pendiente_
+- **Categoría**: restaurante
 
 ## Contactos
 
-- **Contacto principal**: nombre, cargo, teléfono, email.
-- **Contacto técnico**: nombre, cargo, teléfono, email.
-- **Contacto administrativo**: nombre, cargo, teléfono, email.
+- **Contacto principal**: Manuela Gomez — propietaria — 3114596193 — Nanuelagomez@gmail.com / Manugomez312@hotmail.com
+- **Contacto técnico**: _pendiente_
+- **Contacto administrativo**: _pendiente_
 
 ## Alcance contractual asignado (Parágrafo Primero – Cláusula Primera)
 
 - Usuarios AriCRM: hasta 3. Nombres: _pendiente_.
-- Líneas de WhatsApp: 3. Números: _pendiente_.
+- Líneas de WhatsApp: 3. Números: _pendiente_ (principal actual: 3114596193).
 - Contactos disponibles: hasta 2000.
 
 ## Hitos temporales (con evidencia)
-
-Estos campos anclan los plazos contractuales. La evidencia debe existir; no bastan las fechas declaradas.
 
 - **Fecha de caracterización**: _pendiente_ · evidencia: _pendiente_
 - **Fecha estimada de activación**: _pendiente_
@@ -37,23 +35,30 @@ Estos campos anclan los plazos contractuales. La evidencia debe existir; no bast
 
 ## Canales digitales existentes (obligación 6)
 
-- WhatsApp (número principal actual):
-- Instagram:
-- Facebook:
-- Web / dominio propio:
-- Otros:
+- WhatsApp (número principal actual): 3114596193
+- Instagram: _pendiente_
+- Facebook: _pendiente_
+- Web / dominio propio: _pendiente_
+- Otros: _pendiente_
 
 ## Restricciones específicas del cliente
 
-- Horarios de operación:
-- Zonas de cobertura de domicilios:
-- Métodos de pago aceptados:
-- Restricciones legales/sanitarias:
-- Otras:
+- Horarios de operación: _pendiente_
+- Zonas de cobertura de domicilios: _pendiente_ (opera desde casa)
+- Métodos de pago aceptados: _pendiente_
+- Restricciones legales/sanitarias: _pendiente_
+- Otras: sin sede física operativa; solo domicilios desde casa (ver contexto)
+
+## Contexto pre-caracterización (línea base recibida de la Cámara)
+
+- **Estado en programa**: ACEPTA — Renovado 2026. Reunión inicial realizada; empresaria acepta.
+- **Afectación**: Cierre definitivo por daño estructural severo. Colapso total del predio; solo ruinas. Perdió absolutamente todo bajo los escombros.
+- **Operación actual**: Domicilios desde la casa de la propietaria.
+- **Fuente**: registro de llamada Santiago 26/08/2026; reunión Sandra 27/08/2026 10am.
 
 ## Estado
 
-El estado de cada obligación se consulta en `TASKS.md` de esta misma carpeta. **No duplicar aquí**: si se necesita snapshot para reunión, exportarlo desde `TASKS.md`.
+El estado de cada obligación se consulta en `TASKS.md` de esta misma carpeta.
 
 ## SLA de soporte (obligación 11)
 

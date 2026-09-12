@@ -16,8 +16,8 @@
 3. Configurar destinatario del escalamiento (usuario/grupo AriCRM + notificación).
 4. Pruebas de conversación cubriendo: pedido feliz, reserva feliz, queja (debe escalar), pregunta fuera de menú (debe escalar), consulta de horario (debe resolver).
 5. Ajustar prompt según resultados. Iterar hasta que la tasa de escalamiento sea razonable (ni todo pasa, ni nada pasa a humano).
-6. Documentar el prompt/versión utilizada en `evidencias/<c>/ia-conversacional/prompt-v1.md`.
-7. Cerrar `C-05` en `TASKS.md` del cliente.
+6. Documentar el prompt/versión utilizada en `../evidencias/<slug>/ia-conversacional/prompt-v1.md`.
+7. Cerrar `C-04` en `../clientes/<slug>/TASKS.md` del cliente.
 
 ## Criterio de aceptación
 
@@ -27,5 +27,5 @@
 
 ## Notas
 
-- El agente IA es funcionalidad **preexistente de AriCRM** (ver `PROGRAMA.md`). La configuración por cliente NO se cede a la Cámara; es parametrización de producto.
+- El agente IA es funcionalidad **preexistente de AriCRM** (ver `../PROGRAMA.md`). La configuración por cliente NO se cede a la Cámara; es parametrización de producto.
 - No usar datos personales de contactos como ejemplos en el prompt.

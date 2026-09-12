@@ -1,6 +1,6 @@
 # Eval — Vertical Restaurantes de AriCRM
 
-Referenciado por `TASKS.md` global P-006.
+Referenciado por `../TASKS.md` global P-006.
 
 **Objetivo**: verificar que la plantilla vertical restaurantes en `../velo_wa/` soporta el alcance contractual (menú digital, pedidos, reservas, plantillas, IA + escalamiento) para los 10 tenants antes de arrancar configuraciones.
 

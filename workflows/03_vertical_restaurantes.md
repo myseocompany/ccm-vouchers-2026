@@ -18,8 +18,8 @@
 5. Cargar etiquetas base (nuevo, recurrente, VIP, queja, pedido, reserva) y personalizar con lo detectado en la caracterización.
 6. Cargar plantillas de respuesta base + adaptaciones específicas del cliente (tono, saludo).
 7. Prueba end-to-end: enviar mensaje desde un WhatsApp externo, generar un pedido y una reserva de prueba, verificar en el panel.
-8. Evidencia en `evidencias/<c>/vertical-restaurantes/`.
-9. Cerrar `C-04` en `TASKS.md` del cliente.
+8. Evidencia en `../evidencias/<slug>/vertical-restaurantes/`.
+9. Cerrar `C-03` en `../clientes/<slug>/TASKS.md` del cliente.
 
 ## Criterio de aceptación
 

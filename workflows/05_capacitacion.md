@@ -16,8 +16,8 @@
 3. Ejecutar la capacitación (presencial o remota). Duración estimada: 90–120 minutos.
 4. Cubrir los casos frecuentes que salieron en la caracterización.
 5. Dejar tarea de práctica corta (ej. atender 3 mensajes de prueba, crear una plantilla nueva).
-6. Firmar `templates/ACTA_CAPACITACION.md` con asistentes, temas y compromisos. Archivar en `entregables/actas/capacitacion-<cliente-slug>-<YYYY-MM-DD>.pdf`.
-7. Registrar en `PROGRESS.md`. Cerrar `C-06` en `TASKS.md`.
+6. Firmar `../templates/ACTA_CAPACITACION.md` con asistentes, temas y compromisos. Archivar en `../entregables/actas/capacitacion-<cliente-slug>-<YYYY-MM-DD>.pdf`.
+7. Registrar en `../clientes/<slug>/PROGRESS.md`. Cerrar `C-05` en `../clientes/<slug>/TASKS.md`.
 
 ## Criterio de aceptación
 

@@ -40,3 +40,22 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 - **Responsable**: Nicolás.
 - **Impacto contractual**: Ninguno directo. Refuerza la posición de propiedad intelectual (Cláusula 17): AriCRM es producto preexistente separado del contrato.
 - **Fuente**: Conversación con Claude Code, 2026-09-12.
+
+### 2026-09-12 — Corrección de cierres y validación de evidencias
+- **Contexto**: segunda auditoría detectó IDs de cierre desalineados, aceptación de rutas genéricas como evidencia, omisión de conformidad de soporte y placeholders no detectados.
+- **Decisión**: corregir los IDs de seis workflows; añadir Evidencia a tareas globales, plantilla y diez clientes; rechazar cierres sin archivos concretos existentes y no vacíos; detectar campos básicos pendientes sin imprimir sus valores; exigir conformidad escrita de soporte en C-08/C-10.
+- **Responsable**: Nicolás autorizó la corrección; Codex la implementó.
+- **Impacto**: controles documentales; no cambia estados de avance ni configuraciones de producción. La suficiencia del contenido probatorio sigue requiriendo revisión humana.
+- **Fuente**: auditoría y autorización «hazlo» en esta conversación, 2026-09-12.
+
+### 2026-09-12 — Poblado inicial de 9 CLIENTE.md desde tabla de la Cámara + tercera auditoría
+- **Contexto**: la Cámara envió tabla con datos de 10 establecimientos. 9 coinciden con los slugs previamente creados; Indecente NO aparece; Sevicheria El Costeño DG aparece con datos completos pero no está en la lista original de 10. Contexto crítico: todos los diagnósticos son por sismo (daño estructural severo, colapso, operación desde casas).
+- **Decisión**:
+  - Poblar los 9 CLIENTE.md coincidentes con NIT/cédula, contacto principal, dirección, canal WhatsApp y "Contexto pre-caracterización" (afectación por sismo + operación actual).
+  - Normalizar campo `**NIT/Cédula**` → `**NIT**` para que el validador lo detecte.
+  - Levantar discrepancia a Nicolás: qué hacer con Indecente (sin datos) y Sevicheria El Costeño DG (con datos, no en lista). Pendiente de decisión.
+  - Tercera auditoría (2026-09-12): 6 workflows cerraban IDs de tarea equivocados (heredado del scaffolding inicial, antes de que Codex reordenara los C-XX). Corregido: 02→C-02, 03→C-03, 04→C-04, 05→C-05, 06→C-06, 08→C-09. 07_soporte_sla cubre C-07/C-08/C-10 (continuas durante 4 meses, no se "cierran" en un paso).
+  - Alta 2 de la tercera auditoría (validador acepta cierres sin evidencia real) verificada como resuelta por Codex: bash validate.sh sale con exit 1 cuando una tarea se marca completa sin evidencia.
+- **Responsable**: Nicolás autorizó ("dale"); Claude Code implementó.
+- **Impacto contractual**: los datos poblados quedan bajo la política de protección de datos personales (Ley 1581/2012). Repo privado en GitHub. Discrepancia Indecente/Sevicheria bloquea confirmación total de la obligación 2 hasta que se decida.
+- **Fuente**: tabla enviada por Nicolás con datos de la Cámara (registros de llamada 26–31/08/2026); auditoría reportada en conversación 2026-09-12.

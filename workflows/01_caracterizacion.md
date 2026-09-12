@@ -13,14 +13,14 @@
 
 1. Confirmar canal y horario de la sesión con el contacto principal. No suplantar, no grabar sin consentimiento explícito.
 2. Revisar antes canales públicos del cliente (WhatsApp Business, IG, FB, web) para llegar con hipótesis, no en blanco.
-3. Conducir la sesión guiada por `clientes/<c>/CARACTERIZACION.md`. Completar todas las secciones. Marcar lo que no se pueda responder en la primera sesión.
+3. Conducir la sesión guiada por `../clientes/<slug>/CARACTERIZACION.md`. Completar todas las secciones. Marcar lo que no se pueda responder en la primera sesión.
 4. Confirmar priorización de módulos (menú digital / pedidos / reservas / IA) con el cliente.
-5. Guardar notas de la sesión en `evidencias/<c>/caracterizacion-<YYYY-MM-DD>.md`.
-6. Actualizar `clientes/<c>/PROGRESS.md` y marcar `C-01` como `completa` en `clientes/<c>/TASKS.md` cuando `CARACTERIZACION.md` esté lleno.
+5. Guardar notas de la sesión en `../evidencias/<slug>/caracterizacion-<YYYY-MM-DD>.md`.
+6. Actualizar `../clientes/<slug>/PROGRESS.md` y marcar `C-01` como `completa` en `../clientes/<slug>/TASKS.md` cuando `../clientes/<slug>/CARACTERIZACION.md` esté lleno.
 
 ## Criterio de aceptación
 
-- `CARACTERIZACION.md` sin secciones vacías (o con nota explícita de "pendiente por confirmar" con fecha).
+- `../clientes/<slug>/CARACTERIZACION.md` sin secciones vacías (o con nota explícita de "pendiente por confirmar" con fecha).
 - Al menos 3 brechas digitales priorizadas.
 - Evidencia archivada.
 

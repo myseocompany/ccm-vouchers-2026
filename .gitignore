@@ -36,3 +36,6 @@ evidencias/**/*.csv
 
 # OS junk
 Thumbs.db
+
+# Graphify analysis cache — not part of the harness
+graphify-out/

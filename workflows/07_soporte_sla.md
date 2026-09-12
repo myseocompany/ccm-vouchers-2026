@@ -5,7 +5,7 @@
 
 ## Niveles de severidad y SLA propuestos
 
-_(A validar con la Cámara en P-007 — `TASKS.md` global)_
+_(A validar con la Cámara en P-007 — `../TASKS.md` (global))_
 
 | Severidad | Descripción | Tiempo de respuesta | Tiempo de resolución objetivo |
 |-----------|-------------|--------------------|-------------------------------|
@@ -22,7 +22,7 @@ _(A validar con la Cámara en P-007 — `TASKS.md` global)_
 
 ## Pasos operativos
 
-1. Registrar cada solicitud en un log por cliente (`evidencias/<c>/soporte/tickets.md` o herramienta equivalente): ID, fecha entrada, severidad, descripción, fecha respuesta, fecha resolución, notas.
+1. Registrar cada solicitud en un log por cliente (`../evidencias/<slug>/soporte/tickets.md` o herramienta equivalente): ID, fecha entrada, severidad, descripción, fecha respuesta, fecha resolución, notas.
 2. Confirmar recepción dentro del SLA.
 3. Diagnóstico y resolución. Si requiere cambio de código en AriCRM, abrir tarea en `../velo_wa/` (no es cambio para el contrato — es soporte del producto).
 4. Cerrar con confirmación del cliente.

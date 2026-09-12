@@ -4,28 +4,26 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 
 ## Identificación
 
-- **Nombre comercial**:
-- **Razón social**:
-- **NIT**:
-- **Ciudad / dirección**:
-- **Tipo de cocina / propuesta**:
-- **Categoría**: (restaurante / cafetería / bar / heladería / …)
+- **Nombre comercial**: Pizzas Beto
+- **Razón social**: _pendiente confirmar_
+- **NIT**: 24347215
+- **Ciudad / dirección**: Manizales — Calle 20 # 20-32
+- **Tipo de cocina / propuesta**: Pizzas
+- **Categoría**: restaurante / comida rápida
 
 ## Contactos
 
-- **Contacto principal**: nombre, cargo, teléfono, email.
-- **Contacto técnico**: nombre, cargo, teléfono, email.
-- **Contacto administrativo**: nombre, cargo, teléfono, email.
+- **Contacto principal**: Diana Tabares — propietaria — 3006515621 — dianapicky@hotmail.com
+- **Contacto técnico**: _pendiente_
+- **Contacto administrativo**: _pendiente_
 
 ## Alcance contractual asignado (Parágrafo Primero – Cláusula Primera)
 
 - Usuarios AriCRM: hasta 3. Nombres: _pendiente_.
-- Líneas de WhatsApp: 3. Números: _pendiente_.
+- Líneas de WhatsApp: 3. Números: _pendiente_ (principal actual: 3006515621).
 - Contactos disponibles: hasta 2000.
 
 ## Hitos temporales (con evidencia)
-
-Estos campos anclan los plazos contractuales. La evidencia debe existir; no bastan las fechas declaradas.
 
 - **Fecha de caracterización**: _pendiente_ · evidencia: _pendiente_
 - **Fecha estimada de activación**: _pendiente_
@@ -37,23 +35,30 @@ Estos campos anclan los plazos contractuales. La evidencia debe existir; no bast
 
 ## Canales digitales existentes (obligación 6)
 
-- WhatsApp (número principal actual):
-- Instagram:
-- Facebook:
-- Web / dominio propio:
-- Otros:
+- WhatsApp (número principal actual): 3006515621
+- Instagram: _pendiente_
+- Facebook: _pendiente_
+- Web / dominio propio: _pendiente_
+- Otros: _pendiente_
 
 ## Restricciones específicas del cliente
 
-- Horarios de operación:
-- Zonas de cobertura de domicilios:
-- Métodos de pago aceptados:
-- Restricciones legales/sanitarias:
-- Otras:
+- Horarios de operación: _pendiente_
+- Zonas de cobertura de domicilios: _pendiente_
+- Métodos de pago aceptados: _pendiente_
+- Restricciones legales/sanitarias: _pendiente_
+- Otras: _pendiente_
+
+## Contexto pre-caracterización (línea base recibida de la Cámara)
+
+- **Estado en programa**: ACEPTA — Renovado 2026. Reunión programada.
+- **Afectación**: _no registrada en la tabla recibida — confirmar en caracterización_.
+- **Operación actual**: _pendiente_.
+- **Fuente**: registro Sandra 28/08/2026; reunión 31/08/2026 8:30am.
 
 ## Estado
 
-El estado de cada obligación se consulta en `TASKS.md` de esta misma carpeta. **No duplicar aquí**: si se necesita snapshot para reunión, exportarlo desde `TASKS.md`.
+El estado de cada obligación se consulta en `TASKS.md` de esta misma carpeta.
 
 ## SLA de soporte (obligación 11)
 
