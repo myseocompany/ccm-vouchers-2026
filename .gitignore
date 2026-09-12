@@ -1,0 +1,38 @@
+# Secrets and credentials — never commit
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.pfx
+*credentials*
+*secret*
+*token*
+
+# macOS
+.DS_Store
+._*
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local Claude Code state
+.claude/settings.local.json
+
+# End-customer PII — never commit exports of restaurant contacts
+# (aggregate metrics are OK; raw contact lists are not)
+evidencias/**/contactos-*
+evidencias/**/exports/raw-*
+evidencias/**/*.csv
+
+# Temporary and backup files
+*.tmp
+*.bak
+*.log
+
+# OS junk
+Thumbs.db
