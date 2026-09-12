@@ -11,7 +11,7 @@ No marcar una tarea `completa` sin enlazar evidencia o resultado verificable (ac
 | ID | Resultado esperado | Estado | Responsable | Siguiente acción | Criterio de terminado  Evidencia |
 |----|--------------------|--------|-------------|------------------|----------------------- --- |
 | P-001 | Confirmar fecha efectiva de firma del contrato y calcular fechas de las 6 semanas | pendiente | Nicolás | Revisar Zoho Sign del PDF y registrar en `PROGRAMA.md` | Fecha registrada + hitos calculados en `PROGRAMA.md`  — |
-| P-002 | Recibir de la Cámara la lista de los 10 establecimientos beneficiarios con contacto | en_progreso | Cámara → Nicolás | Confirmar NIT, contactos y ciudad de cada uno; lista de nombres recibida 2026-09-12 | Cada `clientes/<slug>/CLIENTE.md` con NIT, contacto principal, ciudad  — |
+| P-002 | Recibir de la Cámara la lista de los 10 establecimientos beneficiarios con contacto | en_progreso | Cámara → Nicolás | Solicitar a la Cámara los datos de Indecente (los otros 9 ya están poblados 2026-09-12) | Cada `clientes/<slug>/CLIENTE.md` con NIT, contacto principal, ciudad (9/10 completos)  — |
 | P-003 | Agendar kickoff formal con la Cámara | pendiente | Nicolás | Proponer fechas | Acta de kickoff firmada en `entregables/actas/`  — |
 | P-004 | Definir formato del informe individual aceptado por la Cámara | pendiente | Nicolás | Solicitar formato oficial a la Cámara; si no existe, proponer `templates/INFORME_ESTABLECIMIENTO.md` | Formato aprobado por la Cámara por escrito  — |
 | P-005 | Definir formato del dashboard de seguimiento (obligación 13) | pendiente | Nicolás | Proponer versión inicial usando `templates/DASHBOARD_METRICAS.md` | Dashboard disponible y aprobado por la Cámara  — |

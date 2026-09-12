@@ -59,3 +59,10 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 - **Responsable**: Nicolás autorizó ("dale"); Claude Code implementó.
 - **Impacto contractual**: los datos poblados quedan bajo la política de protección de datos personales (Ley 1581/2012). Repo privado en GitHub. Discrepancia Indecente/Sevicheria bloquea confirmación total de la obligación 2 hasta que se decida.
 - **Fuente**: tabla enviada por Nicolás con datos de la Cámara (registros de llamada 26–31/08/2026); auditoría reportada en conversación 2026-09-12.
+
+### 2026-09-12 — Resolución discrepancia Indecente / Sevichería El Costeño DG
+- **Contexto**: la tabla de la Cámara del 2026-09-12 incluía datos de "Sevichería El Costeño DG" (que no estaba en la lista original de 10) y omitía datos de "Indecente" (que sí estaba).
+- **Decisión**: Sevichería no entra en la lista. Indecente se mantiene como uno de los 10 beneficiarios; los datos de contacto llegan después. La carpeta `clientes/indecente/` queda con placeholder hasta que se reciban.
+- **Responsable**: Nicolás, 2026-09-12.
+- **Impacto contractual**: los 10 beneficiarios siguen siendo los originalmente registrados. La obligación 2 (caracterización) para Indecente queda bloqueada hasta que llegue la información.
+- **Fuente**: instrucción directa en conversación 2026-09-12.
