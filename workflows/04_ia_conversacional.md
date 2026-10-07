@@ -8,6 +8,7 @@
 - Vertical restaurantes activo (workflow 03).
 - Menú, políticas y horarios del cliente cargados (son la base de conocimiento del agente).
 - Criterios de escalamiento definidos con el cliente (qué debe atender la IA y qué debe pasar a humano).
+- Preparar una copia por cliente de `../templates/CHECKLIST_DESPLIEGUE_AGENTE_IA.md` para registrar pruebas, evidencias y la decisión de activación.
 
 ## Pasos
 
@@ -17,7 +18,8 @@
 4. Pruebas de conversación cubriendo: pedido feliz, reserva feliz, queja (debe escalar), pregunta fuera de menú (debe escalar), consulta de horario (debe resolver).
 5. Ajustar prompt según resultados. Iterar hasta que la tasa de escalamiento sea razonable (ni todo pasa, ni nada pasa a humano).
 6. Documentar el prompt/versión utilizada en `../evidencias/<slug>/ia-conversacional/prompt-v1.md`.
-7. Cerrar `C-04` en `../clientes/<slug>/TASKS.md` del cliente.
+7. Ejecutar las puertas 1 y 2 del checklist de despliegue con teléfonos controlados. Verificar precios, duplicados, horario, medios, toma humana y recepción real del escalamiento antes de solicitar la activación.
+8. Cerrar `C-04` en `../clientes/<slug>/TASKS.md` del cliente cuando se cumpla el criterio de aceptación y exista evidencia.
 
 ## Criterio de aceptación
 
