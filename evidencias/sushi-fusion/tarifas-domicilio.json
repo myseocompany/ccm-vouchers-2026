@@ -1,0 +1,760 @@
+{
+  "fuente": "clientes/sushi-fusion/media/Tarifas alta suiza 2026 (2).pdf",
+  "fecha_extraccion": "2026-10-28",
+  "moneda": "COP",
+  "notas": "Tabla 'TARIFAS FLASH DELIVERY 2026' de Flash Delivery Manizales, zona Alta Suiza. Contacto (WhatsApp): 302 798 2676 - 302 798 2676. 'Las tarifas varian con servicios ESPECIALES - PESADOS - DATAFONO'. 'ZONAS EN ROJO: consultar disponibilidad, evitar entregas por escalas' (marcadas con nota por barrio). Precio unico por barrio; no hay columnas de rango/distancia ni ida y vuelta.",
+  "zonas": [
+    {
+      "barrio": "20 de julio",
+      "precio": 9000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Aeropuerto La Nubia",
+      "precio": 9500
+    },
+    {
+      "barrio": "Agustinos",
+      "precio": 8500
+    },
+    {
+      "barrio": "Alamos",
+      "precio": 7500
+    },
+    {
+      "barrio": "Albania",
+      "precio": 9000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Alcazares",
+      "precio": 10000
+    },
+    {
+      "barrio": "Alferez real",
+      "precio": 8500
+    },
+    {
+      "barrio": "Alhambra",
+      "precio": 10000
+    },
+    {
+      "barrio": "Alta Suiza",
+      "precio": 5000
+    },
+    {
+      "barrio": "Alto Del Perro",
+      "precio": 6000
+    },
+    {
+      "barrio": "Alto Tablazo",
+      "precio": 13000
+    },
+    {
+      "barrio": "Altos De Capri",
+      "precio": 7000
+    },
+    {
+      "barrio": "Altos De Granada",
+      "precio": 6000
+    },
+    {
+      "barrio": "Americas",
+      "precio": 8500
+    },
+    {
+      "barrio": "Aranjuez",
+      "precio": 9000
+    },
+    {
+      "barrio": "Arboleda",
+      "precio": 7000
+    },
+    {
+      "barrio": "Argentina",
+      "precio": 6500
+    },
+    {
+      "barrio": "Arrayanes",
+      "precio": 8000
+    },
+    {
+      "barrio": "Asturias",
+      "precio": 10000
+    },
+    {
+      "barrio": "Asuncion",
+      "precio": 6500
+    },
+    {
+      "barrio": "Aurora",
+      "precio": 15000
+    },
+    {
+      "barrio": "Bajo Tablazo",
+      "precio": 15000
+    },
+    {
+      "barrio": "Batallon Ayacucho",
+      "precio": 5500
+    },
+    {
+      "barrio": "Bavaria",
+      "precio": 7000
+    },
+    {
+      "barrio": "Belen",
+      "precio": 6000
+    },
+    {
+      "barrio": "Bella Suiza",
+      "precio": 5500
+    },
+    {
+      "barrio": "Bengala",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Bosque",
+      "precio": 9000
+    },
+    {
+      "barrio": "Bosque Popular",
+      "precio": 7500
+    },
+    {
+      "barrio": "Bosques De Encenillo",
+      "precio": 7500
+    },
+    {
+      "barrio": "Bosques De Niza",
+      "precio": 6000
+    },
+    {
+      "barrio": "Bosques Del Norte",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Cable",
+      "precio": 5500
+    },
+    {
+      "barrio": "Camelia",
+      "precio": 5500
+    },
+    {
+      "barrio": "Camilo Torres",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Campin",
+      "precio": 7000
+    },
+    {
+      "barrio": "Campo Hermoso",
+      "precio": 9000
+    },
+    {
+      "barrio": "Campoamor",
+      "precio": 8000
+    },
+    {
+      "barrio": "Caribe",
+      "precio": 7000
+    },
+    {
+      "barrio": "Carmen",
+      "precio": 9000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Carola",
+      "precio": 6000
+    },
+    {
+      "barrio": "Castellana",
+      "precio": 9000
+    },
+    {
+      "barrio": "Cedros",
+      "precio": 7000
+    },
+    {
+      "barrio": "Centenario",
+      "precio": 9000
+    },
+    {
+      "barrio": "Centro 1",
+      "precio": 8000
+    },
+    {
+      "barrio": "Centro 2",
+      "precio": 8500
+    },
+    {
+      "barrio": "Cable Plaza",
+      "precio": 6000
+    },
+    {
+      "barrio": "Cerro De Oro",
+      "precio": 6000
+    },
+    {
+      "barrio": "Cervantes",
+      "precio": 8000
+    },
+    {
+      "barrio": "Chipre",
+      "precio": 9000
+    },
+    {
+      "barrio": "Colinas",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Colombia",
+      "precio": 7000
+    },
+    {
+      "barrio": "Colseguros",
+      "precio": 5000
+    },
+    {
+      "barrio": "Comuneros",
+      "precio": 7000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Conju La Estacion",
+      "precio": 7500
+    },
+    {
+      "barrio": "Chec Manizales",
+      "precio": 15000
+    },
+    {
+      "barrio": "Cuchilla De Los Santa",
+      "precio": 13000
+    },
+    {
+      "barrio": "Cuchilla Del Salado",
+      "precio": 15000
+    },
+    {
+      "barrio": "Cumbre",
+      "precio": 6500
+    },
+    {
+      "barrio": "Daniela",
+      "precio": 6000
+    },
+    {
+      "barrio": "Delicias",
+      "precio": 8000
+    },
+    {
+      "barrio": "El Sol",
+      "precio": 6500
+    },
+    {
+      "barrio": "El Topacio",
+      "precio": 11000
+    },
+    {
+      "barrio": "El Trebol",
+      "precio": 6500
+    },
+    {
+      "barrio": "Enea",
+      "precio": 8500
+    },
+    {
+      "barrio": "Estacion Uribe 1",
+      "precio": 12000
+    },
+    {
+      "barrio": "Estacion Uribe 2",
+      "precio": 15000
+    },
+    {
+      "barrio": "Estambul",
+      "precio": 10000
+    },
+    {
+      "barrio": "Estambul Villa Jardin",
+      "precio": 10000
+    },
+    {
+      "barrio": "Estrella",
+      "precio": 5500
+    },
+    {
+      "barrio": "Eucaliptos",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Expoferias",
+      "precio": 6500
+    },
+    {
+      "barrio": "Fanny G - Peralonso",
+      "precio": 7000
+    },
+    {
+      "barrio": "Fatima",
+      "precio": 6500
+    },
+    {
+      "barrio": "Floresta 1 Villamaria",
+      "precio": 13000
+    },
+    {
+      "barrio": "Floresta 2 Villamaria",
+      "precio": 15000
+    },
+    {
+      "barrio": "Florida",
+      "precio": 9500
+    },
+    {
+      "barrio": "Florida El Retiro",
+      "precio": 10000
+    },
+    {
+      "barrio": "Francia",
+      "precio": 10000
+    },
+    {
+      "barrio": "Fundadores",
+      "precio": 8000
+    },
+    {
+      "barrio": "Gaitan Villamaria",
+      "precio": 12000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Galan",
+      "precio": 9000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Galeria",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Gallinazo",
+      "precio": 14000
+    },
+    {
+      "barrio": "Girasoles",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Gonzales",
+      "precio": 7500
+    },
+    {
+      "barrio": "Granjas De Estambul",
+      "precio": 10000
+    },
+    {
+      "barrio": "Guamal",
+      "precio": 8500
+    },
+    {
+      "barrio": "Guayacanes",
+      "precio": 5500
+    },
+    {
+      "barrio": "Isabella",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Isla",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Jose Restrepo",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Kennedy",
+      "precio": 6500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "La Linda",
+      "precio": 17000
+    },
+    {
+      "barrio": "Laureles",
+      "precio": 5500
+    },
+    {
+      "barrio": "Leonora",
+      "precio": 6000
+    },
+    {
+      "barrio": "Liborio",
+      "precio": 9000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Linares",
+      "precio": 7500
+    },
+    {
+      "barrio": "Lleras",
+      "precio": 7000
+    },
+    {
+      "barrio": "Lusitania",
+      "precio": 9000
+    },
+    {
+      "barrio": "Malhabar",
+      "precio": 8000
+    },
+    {
+      "barrio": "Mall Plaza",
+      "precio": 6500
+    },
+    {
+      "barrio": "Malteria 1",
+      "precio": 10000
+    },
+    {
+      "barrio": "Malteria 2",
+      "precio": 13000
+    },
+    {
+      "barrio": "Marmato",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Milan",
+      "precio": 5000
+    },
+    {
+      "barrio": "Minitas",
+      "precio": 6000
+    },
+    {
+      "barrio": "Molinos",
+      "precio": 11000
+    },
+    {
+      "barrio": "Morrogacho",
+      "precio": 12000
+    },
+    {
+      "barrio": "Nevado",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Nogales",
+      "precio": 9500
+    },
+    {
+      "barrio": "Palermo",
+      "precio": 5500
+    },
+    {
+      "barrio": "Palmar",
+      "precio": 7500
+    },
+    {
+      "barrio": "Palo Grande",
+      "precio": 5500
+    },
+    {
+      "barrio": "Palo Negro",
+      "precio": 7500
+    },
+    {
+      "barrio": "Panamericana",
+      "precio": 10000
+    },
+    {
+      "barrio": "Panorama",
+      "precio": 9500
+    },
+    {
+      "barrio": "Paraiso",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Parque De Castilla",
+      "precio": 7500
+    },
+    {
+      "barrio": "Persia Alto",
+      "precio": 7500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Persia Bajo",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Pio XII",
+      "precio": 7000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Porvenir",
+      "precio": 7000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Pradera Villamaria",
+      "precio": 12000
+    },
+    {
+      "barrio": "Prado",
+      "precio": 7500
+    },
+    {
+      "barrio": "Primavera",
+      "precio": 6500
+    },
+    {
+      "barrio": "Puertas Del Sol",
+      "precio": 10000
+    },
+    {
+      "barrio": "Quinta Hispania",
+      "precio": 10000
+    },
+    {
+      "barrio": "Rambla",
+      "precio": 5500
+    },
+    {
+      "barrio": "Renault Minuto",
+      "precio": 6000
+    },
+    {
+      "barrio": "Reserva Campestre",
+      "precio": 10000
+    },
+    {
+      "barrio": "Rincon De La Francia",
+      "precio": 12000
+    },
+    {
+      "barrio": "Rosales",
+      "precio": 6000
+    },
+    {
+      "barrio": "Saenz",
+      "precio": 7000
+    },
+    {
+      "barrio": "Samaria",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "San Antonio",
+      "precio": 8500
+    },
+    {
+      "barrio": "San Jorge",
+      "precio": 6500
+    },
+    {
+      "barrio": "San Jose",
+      "precio": 8500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "San Cayetano",
+      "precio": 7000
+    },
+    {
+      "barrio": "San Isidro",
+      "precio": 12000
+    },
+    {
+      "barrio": "San Joaquin",
+      "precio": 8000
+    },
+    {
+      "barrio": "San Marcel",
+      "precio": 8000
+    },
+    {
+      "barrio": "San Rafael",
+      "precio": 5000
+    },
+    {
+      "barrio": "San Sebastia",
+      "precio": 9000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Santa Helena",
+      "precio": 7500
+    },
+    {
+      "barrio": "Santa Sofia",
+      "precio": 10000
+    },
+    {
+      "barrio": "Santos",
+      "precio": 8500
+    },
+    {
+      "barrio": "Sinai",
+      "precio": 7500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Solferino",
+      "precio": 8000,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Sultana",
+      "precio": 5500
+    },
+    {
+      "barrio": "Tejares De Milan",
+      "precio": 6000
+    },
+    {
+      "barrio": "TeleCafé",
+      "precio": 7500
+    },
+    {
+      "barrio": "Termales Del Otoño",
+      "precio": 20000
+    },
+    {
+      "barrio": "Terminal Antiguo",
+      "precio": 8500
+    },
+    {
+      "barrio": "Terminal Nuevo",
+      "precio": 10000
+    },
+    {
+      "barrio": "Torres De San Jose",
+      "precio": 9500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Toscana",
+      "precio": 5500
+    },
+    {
+      "barrio": "Trivento",
+      "precio": 10000
+    },
+    {
+      "barrio": "Turin Villamaria",
+      "precio": 12000
+    },
+    {
+      "barrio": "Uribe",
+      "precio": 7000
+    },
+    {
+      "barrio": "Velez",
+      "precio": 7000
+    },
+    {
+      "barrio": "Vera Cruz",
+      "precio": 13000
+    },
+    {
+      "barrio": "Vereda Buena Vista",
+      "precio": 11000
+    },
+    {
+      "barrio": "Vereda El Arenillo 1",
+      "precio": 13000
+    },
+    {
+      "barrio": "Vereda El Arenillo 2",
+      "precio": 15000
+    },
+    {
+      "barrio": "Versalles",
+      "precio": 7000
+    },
+    {
+      "barrio": "Villa Café La Carola",
+      "precio": 6000
+    },
+    {
+      "barrio": "Villa Café Minitas",
+      "precio": 6000
+    },
+    {
+      "barrio": "Villa Carmenza",
+      "precio": 8000
+    },
+    {
+      "barrio": "Villa Del Rio",
+      "precio": 6000
+    },
+    {
+      "barrio": "Villa Hermosa",
+      "precio": 6500,
+      "nota": "zona en rojo: consultar disponibilidad, evitar entregas por escalas"
+    },
+    {
+      "barrio": "Villa Julia",
+      "precio": 8500
+    },
+    {
+      "barrio": "Villa kempis",
+      "precio": 9500
+    },
+    {
+      "barrio": "Villa Luz",
+      "precio": 6500
+    },
+    {
+      "barrio": "Villa Nueva",
+      "precio": 7500
+    },
+    {
+      "barrio": "Viveros",
+      "precio": 6000
+    },
+    {
+      "barrio": "Villamaria Parque",
+      "precio": 11000
+    },
+    {
+      "barrio": "Villamaria 2",
+      "precio": 12000
+    },
+    {
+      "barrio": "Villa Pilar",
+      "precio": 10000
+    },
+    {
+      "barrio": "Villa Pilar 2",
+      "precio": 11000
+    }
+  ]
+}
