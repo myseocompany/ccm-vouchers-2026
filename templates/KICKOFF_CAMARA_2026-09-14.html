@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kickoff — Vouchers Digitales 2026</title>
+  <style>
+    :root { --ink:#102a43; --muted:#627d98; --blue:#1769aa; --teal:#08a6a6; --mint:#e8fbf8; --paper:#f6f9fc; --amber:#f59e0b; --line:#d9e2ec; }
+    * { box-sizing:border-box; } body { margin:0; background:#0b1f33; color:var(--ink); font-family:Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .slide { display:none; position:relative; width:min(100vw, 1440px); min-height:100vh; margin:auto; padding:clamp(36px,7vw,112px); overflow:hidden; background:var(--paper); }
+    .slide.active { display:flex; flex-direction:column; justify-content:center; }
+    .slide::after { content:""; position:absolute; width:48vw; height:48vw; right:-23vw; bottom:-30vw; border-radius:50%; background:linear-gradient(135deg,rgba(8,166,166,.18),rgba(23,105,170,.07)); }
+    .eyebrow { margin:0 0 18px; color:var(--teal); font-weight:750; font-size:14px; letter-spacing:.15em; text-transform:uppercase; }
+    h1 { max-width:980px; margin:0; font-size:clamp(42px,7vw,92px); line-height:.98; letter-spacing:-.065em; }
+    h2 { max-width:1000px; margin:0 0 32px; font-size:clamp(32px,4.5vw,64px); line-height:1.03; letter-spacing:-.05em; }
+    h3 { margin:0 0 8px; font-size:20px; } p { max-width:900px; font-size:clamp(17px,1.7vw,25px); line-height:1.45; color:var(--muted); }
+    .lead { max-width:800px; font-size:clamp(20px,2vw,30px); } .accent { color:var(--blue); } .tiny { font-size:13px; color:var(--muted); }
+    .chips,.grid { display:grid; gap:16px; position:relative; z-index:1; } .chips { grid-template-columns:repeat(3,minmax(0,1fr)); margin-top:38px; max-width:1050px; }
+    .chip,.card { border:1px solid var(--line); background:#fff; border-radius:18px; padding:22px; box-shadow:0 10px 30px rgba(16,42,67,.06); }
+    .chip strong { display:block; color:var(--blue); font-size:31px; letter-spacing:-.04em; } .chip span { color:var(--muted); font-size:15px; }
+    .grid.two { grid-template-columns:repeat(2,minmax(0,1fr)); max-width:1100px; } .grid.three { grid-template-columns:repeat(3,minmax(0,1fr)); max-width:1180px; }
+    .card p,.card li { margin:.35rem 0; color:var(--muted); font-size:16px; line-height:1.4; } ul { padding-left:20px; margin:9px 0; }
+    .timeline { display:grid; grid-template-columns:repeat(6,1fr); gap:10px; max-width:1200px; position:relative; z-index:1; }
+    .week { min-height:202px; padding:18px 14px; border-radius:15px; background:#fff; border-top:5px solid var(--teal); box-shadow:0 8px 24px rgba(16,42,67,.06); }
+    .week strong { display:block; color:var(--blue); font-size:15px; } .week span { display:block; margin-top:15px; font-size:15px; line-height:1.3; }
+    .decision { display:grid; grid-template-columns:46px 1fr; gap:14px; align-items:start; padding:15px 0; border-bottom:1px solid var(--line); max-width:1050px; position:relative; z-index:1; }
+    .number { display:grid; place-items:center; width:36px; height:36px; border-radius:50%; color:#fff; background:var(--blue); font-weight:800; } .decision b { font-size:18px; } .decision p { margin:3px 0 0; font-size:16px; }
+    .callout { max-width:1080px; padding:27px 31px; border-radius:22px; color:#075b61; background:var(--mint); border-left:7px solid var(--teal); font-size:clamp(20px,2vw,29px); line-height:1.35; position:relative; z-index:1; }
+    .footer { position:absolute; z-index:2; bottom:28px; left:clamp(36px,7vw,112px); right:clamp(36px,7vw,112px); display:flex; justify-content:space-between; color:#829ab1; font-size:12px; }
+    .draft { display:inline-flex; align-items:center; gap:8px; margin-top:30px; padding:7px 11px; border-radius:999px; color:#8a5700; background:#fff5dd; font-size:13px; font-weight:700; }
+    .nav { position:fixed; z-index:10; right:22px; bottom:20px; display:flex; gap:8px; } button { border:0; border-radius:999px; padding:11px 16px; color:#fff; background:var(--blue); cursor:pointer; font:inherit; font-weight:700; } button:hover { background:#0b548b; }
+    @media (max-width:760px) { .chips,.grid.two,.grid.three { grid-template-columns:1fr; } .timeline { grid-template-columns:repeat(2,1fr); } .slide { min-height:100svh; padding:56px 30px; } .footer { left:30px; right:30px; } }
+    @media print { .slide { display:flex !important; width:100%; height:100vh; min-height:0; page-break-after:always; } .nav { display:none; } }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="slide active">
+      <p class="eyebrow">Cámara de Comercio de Manizales por Caldas · 14 septiembre 2026</p>
+      <h1>Vouchers Digitales <span class="accent">2026</span></h1>
+      <p class="lead">Plan de activación para apoyar la reactivación digital de 10 establecimientos gastronómicos con AriCRM Plan Crecer.</p>
+      <div class="chips"><div class="chip"><strong>10</strong><span>establecimientos beneficiarios</span></div><div class="chip"><strong>6 semanas</strong><span>de implementación contractual</span></div><div class="chip"><strong>4 meses</strong><span>de licencia y soporte desde cada activación</span></div></div>
+      <span class="draft">● Borrador de trabajo — no constituye acta ni modificación contractual</span>
+      <div class="footer"><span>CT-239-26-3 · MY SEO COMPANY S.A.S.</span><span>1 / 6</span></div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Punto de partida</p><h2>La operación ya está <span class="accent">preparada para iniciar</span>.</h2>
+      <div class="grid two"><article class="card"><h3>Beneficiarios</h3><p>Los 10 establecimientos están identificados y tienen carpeta de seguimiento. Nueve fichas cuentan con información inicial; falta completar Indecente.</p></article><article class="card"><h3>Método</h3><p>Plan de implementación rápida, SOP, formulario previo y checklist técnico preparados como borradores internos.</p></article><article class="card"><h3>Gestión</h3><p>Proyecto AriStudio #285 activo, presupuesto contractual registrado y 10 frentes operativos creados, uno por restaurante.</p></article><article class="card"><h3>Base técnica</h3><p>Método de clonación de tenants disponible. El tenant patrón debe verificarse antes del primer piloto y mantenerse libre de datos de otros clientes.</p></article></div>
+      <div class="footer"><span>Estado verificable al 14 de septiembre de 2026</span><span>2 / 6</span></div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Modelo de activación</p><h2>Un restaurante por día; <span class="accent">medio día acompañado</span>.</h2>
+      <div class="callout">La sesión de hasta 4 horas deja el servicio operativo cuando el restaurante entrega previamente menú, reglas, usuarios y operadores autorizados de WhatsApp.</div>
+      <div class="grid three" style="margin-top:24px"><article class="card"><h3>Antes · D-2</h3><p>Formulario, caracterización breve, menú/precios, horarios, pagos, domicilios, reservas, usuarios y canales.</p></article><article class="card"><h3>Sesión · Día D</h3><p>Clonar y parametrizar, conectar canales, configurar IA, probar pedido/reserva/escalamiento y capacitar.</p></article><article class="card"><h3>Después · D+1 a D+7</h3><p>Monitorear, corregir, obtener métricas iniciales y confirmar que el establecimiento puede operar.</p></article></div>
+      <div class="footer"><span>El resto del día queda disponible para evidencia, ajustes y soporte de arranque.</span><span>3 / 6</span></div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Plan inmediato</p><h2>Diez activaciones secuenciales con un piloto que reduce riesgo.</h2>
+      <div class="grid two"><article class="card"><h3>Días 1–2 · Piloto</h3><p>Activar 2 restaurantes listos, validar la clonación, tiempos, checklist, capacitación y evidencia.</p></article><article class="card"><h3>Días 3–6 · Ola 1</h3><p>Activar 4 restaurantes incorporando los ajustes identificados durante el piloto.</p></article><article class="card"><h3>Días 7–10 · Ola 2</h3><p>Activar los 4 restantes y resolver pendientes de líneas, menús o integraciones.</p></article><article class="card"><h3>Semana siguiente</h3><p>Cerrar métricas D+7, autonomía, informes individuales y consolidación del dashboard.</p></article></div>
+      <div class="callout" style="margin-top:24px">El soporte de cuatro meses empieza en la fecha efectiva de activación de cada establecimiento.</div>
+      <div class="footer"><span>Las fechas calendario se fijan al confirmar la firma y la disponibilidad de beneficiarios.</span><span>4 / 6</span></div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Decisiones requeridas hoy</p><h2>Para iniciar sin perder la primera semana.</h2>
+      <div class="decision"><span class="number">1</span><div><b>Confirmar fecha efectiva de firma y ventana de las seis semanas.</b><p>Define el calendario contractual y la fecha objetivo de cierre de implementación.</p></div></div>
+      <div class="decision"><span class="number">2</span><div><b>Completar el contacto y la confirmación de Indecente.</b><p>Los demás frentes ya cuentan con información inicial para comenzar el preflight.</p></div></div>
+      <div class="decision"><span class="number">3</span><div><b>Definir la primera pareja de restaurantes piloto.</b><p>Deben contar con menú vigente, responsable operativo y operadores de WhatsApp disponibles.</p></div></div>
+      <div class="decision"><span class="number">4</span><div><b>Aprobar formulario, formato de informe, seguimiento y SLA.</b><p>Permite recopilar insumos, medir avance y cerrar cada obligación con criterios compartidos.</p></div></div>
+      <div class="footer"><span>Las decisiones deben quedar registradas en acta o correo formal.</span><span>5 / 6</span></div>
+    </section>
+
+    <section class="slide">
+      <p class="eyebrow">Compromiso de arranque</p><h2>Salir de esta reunión con <span class="accent">dos pilotos agendados</span>.</h2>
+      <div class="grid three"><article class="card"><h3>Hoy</h3><p>Confirmar responsables, fechas, pilotos, canal formal y formatos de seguimiento.</p></article><article class="card"><h3>En 24 horas</h3><p>Enviar preflight autorizado y recibir menús, reglas, usuarios y disponibilidad de líneas.</p></article><article class="card"><h3>En 72 horas</h3><p>Tenant patrón verificado, pilotos listos o ejecutados y bloqueos informados.</p></article></div>
+      <div class="callout" style="margin-top:24px">MY SEO protegerá los datos por establecimiento, conectará canales con su operador autorizado y cerrará cada hito únicamente con evidencia.</div>
+      <div class="footer"><span>Gracias · MY SEO COMPANY S.A.S.</span><span>6 / 6</span></div>
+    </section>
+  </main>
+  <nav class="nav" aria-label="Navegación"><button id="prev" type="button">←</button><button id="next" type="button">→</button></nav>
+  <script>
+    const slides = [...document.querySelectorAll('.slide')]; let current = 0;
+    function render(index) { current = (index + slides.length) % slides.length; slides.forEach((slide, i) => slide.classList.toggle('active', i === current)); }
+    document.querySelector('#prev').addEventListener('click', () => render(current - 1));
+    document.querySelector('#next').addEventListener('click', () => render(current + 1));
+    document.addEventListener('keydown', (event) => { if (event.key === 'ArrowRight' || event.key === ' ') render(current + 1); if (event.key === 'ArrowLeft') render(current - 1); });
+  </script>
+</body>
+</html>

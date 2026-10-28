@@ -16,6 +16,14 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 
 ## Entradas
 
+### 2026-09-17 — Crear un tenant patrón limpio para restaurantes con domicilios
+- **Contexto**: Las dos primeras entrevistas muestran una variante de operación solo con domicilios y otra con domicilios más reservas. Se evaluó copiar la configuración de Botanazo o crear una base limpia.
+- **Alternativas consideradas**: copiar Botanazo; crear un tenant patrón nuevo y saneado.
+- **Decisión**: crear en AriCRM el tenant patrón vacío `restaurante-domicilios-v1`, sin usuarios, líneas, contactos, conversaciones, integraciones ni datos de ningún restaurante. Botanazo no será la fuente directa. La creación en producción fue aprobada explícitamente por Nicolás; la parametrización posterior conserva sus controles de aprobación y evidencia.
+- **Responsable**: Nicolás.
+- **Impacto contractual**: acelera la configuración repetible de los beneficiarios sin mezclar sus datos. Se mantiene como configuración/evolución reutilizable de AriCRM preexistente y no cierra por sí misma ninguna obligación contractual.
+- **Fuente**: instrucción directa de Nicolás en conversación, 2026-09-17. Creado en producción por SSH el mismo día; evidencia en `evidencias/tenant-patron/2026-09-17-creacion-restaurante-domicilios-v1.md`.
+
 ### 2026-09-12 — Correcciones tras auditoría inicial del harness
 - **Contexto**: auditoría del scaffolding recién creado identificó 6 hallazgos (3 Alta, 3 Media): criterios de aceptación laxos que permiten cierres prematuros, ausencia de tareas de post-implementación y soporte, C-02 pedía credenciales violando POLICIES, precondición del workflow 01 dependía del listado completo de la Cámara, doble estado editable entre CLIENTE.md y TASKS.md, y referencias a archivos inexistentes.
 - **Decisión**:
