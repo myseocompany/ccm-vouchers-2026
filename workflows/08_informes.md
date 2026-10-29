@@ -13,6 +13,19 @@
 | Informe individual por establecimiento (obl. 15) | Por cliente | Una vez, al cierre de activación | `../clientes/<slug>/INFORME.md` | `../entregables/informes/informe-<cliente-slug>-<YYYY-MM-DD>.pdf` |
 | Informe final con evidencias técnicas (obl. 16) | Consolidación técnica | Una vez, al cierre | `../templates/INFORME_FINAL.md` | `../entregables/informe-final/` |
 
+## Informe de avance (parcial) con formato oficial de la Cámara
+
+**Formato oficial** (confirmado por Nicolás, 2026-10-29): `../templates/INFORME_CAMARA_OFICIAL.docx`. Es la copia canónica única: nunca editarla ni generar copias alternativas. Copiarla a un directorio de trabajo y editar la copia (skill docx) conservando encabezado, logo, estilos y estructura. El título «VAUCHERS» viene así en el formato oficial; no corregirlo. Los parciales por cliente alimentan el informe de avance consolidado (obl. 12).
+
+1. Identificación: marcar [X] Parcial No. 1. Periodo: desde la fecha de caracterización/activación del cliente (`../clientes/<slug>/CLIENTE.md`, `PROGRESS.md`) hasta hoy. Contrato CT-239-26-3. Empresa, NIT y contacto desde `CLIENTE.md`.
+2. Proveedor: MY SEO COMPANY S.A.S., NIT 900.489.574-1, líder Nicolás Navarro Rincón (`../PROGRAMA.md`). Teléfono y correo solo si constan en el repo; si no, dejar `[PENDIENTE]`.
+3. Actividades: borrar las filas de ejemplo; una fila por obligación (2 caracterización, 3 tenant, 4 vertical restaurantes, 5 IA + escalamiento, 6 integración de canales, 7 capacitación, 8 acompañamiento) con entregable, estado (Finalizado / En proceso / Pendiente) y % de avance acumulado, tomados de `../clientes/<slug>/TASKS.md` y `PROGRESS.md`.
+4. Evidencias: imágenes pegadas dentro del documento (no como anexos) desde `../evidencias/<slug>/`, cada una con descripción breve. Si una actividad no tiene evidencia visual, no inventarla: registrarla en la lista de faltantes.
+5. Observaciones: dificultades, retrasos y próximos pasos desde `PROGRESS.md` y `TASKS.md`.
+6. Firmas: campos en blanco para firmar.
+
+Reglas: cada cifra, fecha y estado debe salir de una fuente del repo; separar hechos de inferencias; lo que falte se marca `[PENDIENTE: <qué falta y de dónde>]`. No mezclar datos entre clientes ni leer/copiar credenciales. Comprimir imágenes si el .docx supera ~10 MB. Salida: `../entregables/informes/informe-<slug>-parcial-1-<YYYY-MM-DD>.docx` (crear la carpeta si no existe) + línea en `../clientes/<slug>/PROGRESS.md` remitiendo al borrador. Es un borrador para revisión de Nicolás: no enviar a la Cámara ni al cliente; no commit sin autorización expresa.
+
 ## Pasos por informe individual
 
 1. Confirmar formato oficial de la Cámara (P-004 en `../TASKS.md` (global)). Si no lo dan, usar `../templates/INFORME_ESTABLECIMIENTO.md`.

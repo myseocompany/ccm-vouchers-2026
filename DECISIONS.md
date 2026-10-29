@@ -16,6 +16,14 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 
 ## Entradas
 
+### 2026-10-29 — Plantilla única del informe de avance de la Cámara en el harness
+- **Contexto**: la Cámara entregó el formato oficial de informe de avance (`INFORME_CAMARA_OFICIAL.docx`); la única copia quedó sin trackear en el worktree orca `sushi-manifesto-intent-flows`, y las instrucciones de llenado circulaban solo como prompt de chat.
+- **Alternativas consideradas**: referenciar la ruta del worktree orca (rechazado: workspace desechable, archivo sin commit, ruta inestable); mantener plantilla e instrucciones duplicadas (rechazado: divergencia entre copias).
+- **Decisión**: copia canónica única en `templates/INFORME_CAMARA_OFICIAL.docx` (verificada por md5 contra el original); instrucciones de llenado consolidadas en `workflows/08_informes.md`, sección «Informe de avance (parcial)». Ningún agente edita la plantilla original; se copia a un directorio de trabajo para cada informe.
+- **Responsable**: Nicolás (confirmó el formato 2026-10-29); ZCode consolidó.
+- **Impacto contractual**: soporta la obligación 12 (informes de avance); no cambia plazos ni alcance.
+- **Fuente**: conversación con Nicolás 2026-10-29; archivo del formato entregado por la Cámara.
+
 ### 2026-09-12 — Correcciones tras auditoría inicial del harness
 - **Contexto**: auditoría del scaffolding recién creado identificó 6 hallazgos (3 Alta, 3 Media): criterios de aceptación laxos que permiten cierres prematuros, ausencia de tareas de post-implementación y soporte, C-02 pedía credenciales violando POLICIES, precondición del workflow 01 dependía del listado completo de la Cámara, doble estado editable entre CLIENTE.md y TASKS.md, y referencias a archivos inexistentes.
 - **Decisión**:
