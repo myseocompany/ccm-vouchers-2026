@@ -4,23 +4,24 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 
 ## Identificación
 
-- **Nombre comercial**:
-- **Razón social**:
+- **Nombre comercial**: Indecente.
+- **Razón social**: _pendiente por confirmar (2026-10-25)_.
 - **NIT**:
-- **Ciudad / dirección**:
-- **Tipo de cocina / propuesta**:
-- **Categoría**: (restaurante / cafetería / bar / heladería / …)
+- **Ciudad / dirección**: Manizales · sede principal en Cl. 77 #21-36 Local 2 (dirección ya configurada en el agente; pendiente de validación formal en el formulario).
+- **Tipo de cocina / propuesta**: perritos calientes.
+- **Categoría**: restaurante de comidas rápidas.
 
 ## Contactos
 
-- **Contacto principal**: nombre, cargo, teléfono, email.
-- **Contacto técnico**: nombre, cargo, teléfono, email.
-- **Contacto administrativo**: nombre, cargo, teléfono, email.
+- **Contacto principal**: María Josefina Salazar Lopera · fundadora · correo conservado en el formulario privado archivado.
+- **Contacto operativo y de escalamiento IA**: Paola Haya · cajera · correo conservado en el formulario privado archivado.
+- **Contacto técnico**: _pendiente por confirmar (2026-10-25)_.
+- **Contacto administrativo**: _pendiente por confirmar (2026-10-25)_.
 
 ## Alcance contractual asignado (Parágrafo Primero – Cláusula Primera)
 
-- Usuarios AriCRM: hasta 3. Nombres: _pendiente_.
-- Líneas de WhatsApp: 3. Números: _pendiente_.
+- Usuarios AriCRM: hasta 3. Reportadas Josefina (fundadora) y Paola Haya (cajera); roles y tercer usuario pendientes.
+- Líneas de WhatsApp: principal +57 321 771 2526; líneas 2 y 3 no reportadas.
 - Contactos disponibles: hasta 2000.
 
 ## Hitos temporales (con evidencia)
@@ -37,19 +38,19 @@ Estos campos anclan los plazos contractuales. La evidencia debe existir; no bast
 
 ## Canales digitales existentes (obligación 6)
 
-- WhatsApp (número principal actual):
-- Instagram:
+- WhatsApp (número principal actual): +57 321 771 2526.
+- Instagram: `@indecente.perritos`.
 - Facebook:
 - Web / dominio propio:
-- Otros:
+- Otros: TikTok reportado sin usuario; pendiente por confirmar.
 
 ## Restricciones específicas del cliente
 
-- Horarios de operación:
-- Zonas de cobertura de domicilios:
-- Métodos de pago aceptados:
+- Horarios de operación: martes a jueves 17:00–22:00; viernes 17:00–03:30 del día siguiente; sábado reportado como 16:00–15:00, interpretado provisionalmente como 16:00–03:00 del día siguiente y pendiente de confirmación; domingo y festivos 16:00–22:00; lunes cerrado salvo festivo; descanso el martes inmediatamente posterior a un lunes festivo.
+- Zonas de cobertura de domicilios: Manizales y Villamaría; tarifa y cobertura exacta se validan por barrio.
+- Métodos de pago aceptados: _pendiente por confirmar (2026-10-25)_.
 - Restricciones legales/sanitarias:
-- Otras:
+- Otras: recogida en la sede confirmada por Paola en reporte operativo recibido el 2026-10-25; instrucciones especiales pendientes. La recepción automática de pedidos termina 20 minutos antes del cierre. Tiempo reportado de preparación: 1,5 min; entrega: 10 min, ambos sujetos a confirmación antes de prometerlos al cliente.
 
 ## Estado
 
