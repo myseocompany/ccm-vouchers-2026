@@ -7,7 +7,7 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 - **Nombre comercial**: Friends Chicken (sede Cable)
 - **Razón social**: _pendiente confirmar_
 - **NIT**: 1087960217
-- **Ciudad / dirección**: Manizales — Calle 61 # 23-07 Sector Cable (sede afectada, cerrada). Operando en sede del centro: Cra 21 # 19-61
+- **Ciudad / dirección**: Manizales, Caldas — sede Centro (operación vigente reportada): Cra. 21 #19-63; sede Cable (cerrada): Cl. 61 #23-3. Direcciones confirmadas por Nicolás el 2026-10-07.
 - **Tipo de cocina / propuesta**: Pollo / comida rápida
 - **Categoría**: restaurante
 
