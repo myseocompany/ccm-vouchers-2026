@@ -35,9 +35,10 @@ for f in CLIENTE.md CARACTERIZACION.md TASKS.md PROGRESS.md INFORME.md; do
   [[ -f "clientes/_template/$f" ]] && ok "_template/$f existe" || fail "_template/$f falta"
 done
 
-# ---------- 4. Los 10 clientes esperados ----------
-section "10 clientes esperados"
-expected_clients=(la-megachuleta la-patateria manuelina friends-chicken-cable arepas-rellenas-samu pizzas-beto el-efecto-barbacoa trattorias-y-pastificios cheesecake-pizza-milan indecente)
+# ---------- 4. Clientes esperados ----------
+section "Clientes esperados (9 confirmados)"
+# Nueve beneficiarios confirmados (DECISIONS.md 2026-10-30); el decimo cupo esta sin definir.
+expected_clients=(el-efecto-barbacoa friends-chicken-cable la-patateria pizzas-beto trattorias-y-pastificios indecente sushi-fusion mar-azul the-boss)
 for c in "${expected_clients[@]}"; do
   if [[ -d "clientes/$c" ]]; then
     ok "cliente $c"

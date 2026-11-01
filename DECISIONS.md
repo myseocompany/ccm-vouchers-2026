@@ -16,6 +16,24 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 
 ## Entradas
 
+### 2026-11-01 — La documentación de tenants se trae de velo_wa al harness
+
+- **Contexto**: la documentación operativa de los establecimientos (snapshots de prompt versionados con SHA-256, guiones de prueba, validaciones, tarifas) vivía en `../velo_wa/docs/<tenant>/` y en ramas sin fusionar de ese repo. El harness del programa la desconocía, por lo que `clientes/<slug>/TASKS.md` subregistraba el avance real de las obligaciones 4 y 5.
+- **Alternativas consideradas**: copiarla al harness y mantener las dos (rechazado por Nicolás: las copias se desactualizan); referenciar las rutas de `velo_wa` sin traerla (rechazado: parte vive en ramas de trabajo desechables).
+- **Decisión**: mover la documentación de tenants a `evidencias/<slug>/velo_wa/`, que queda como única copia y fuente de verdad. En `velo_wa` se retiraron los archivos (commit `b59d9660`, rama `main`, **sin publicar**) y se dejó el puntero `docs/TENANTS_CCM_VOUCHERS.md`. Tres excepciones permanecen en `velo_wa` porque `ConfigureCalamarAzulAgent` y `ConfigureLaPatateriaAgent` las cargan en runtime y el servidor de despliegue no tiene montado este repo: el snapshot v8 de Calamar Azul, y el v9 y la carta de La Patatería. La documentación que vive en las ramas `myseocompany/{betos,indecente,efecto}` y `myseocompany/review-trattoria-implementation` ya está traída, pero se retira de origen solo cuando esas ramas se fusionen.
+- **Responsable**: Nicolás (instrucción directa, 2026-11-01); ejecutado por ZCode.
+- **Impacto contractual**: habilita sustentar las obligaciones 4 y 5 con evidencia técnica trazable. Excepción expresa a la regla de `AGENTS.md` de que este harness no edita `velo_wa`: la autorización cubre este movimiento de documentación, no cambios de código.
+- **Fuente**: instrucción directa de Nicolás en sesión del 2026-11-01; `velo_wa` commit `b59d9660`.
+
+### 2026-10-30 — Depuración del listado de beneficiarios (9 de 10 definidos)
+
+- **Contexto**: el roster canónico de `scripts/validate.sh` seguía listando La Megachuleta, Arepas Rellenas Samu, Cheesecake Pizza Milán y Manuelina, mientras Calamar Azul, Sushi Fusión y The Boss Burger tenían trabajo y evidencias en el repo sin estar registrados en el cupo. El listado operativo no cuadraba en diez.
+- **Alternativas consideradas**: mantener el roster anterior y tratar los tres nuevos como adicionales (rechazado: el contrato cubre diez cupos); esperar soporte formal de la Cámara antes de ajustar el roster (rechazado: bloquea la generación de los informes parciales).
+- **Decisión**: La Megachuleta, Arepas Rellenas Samu, Cheesecake Pizza Milán y Manuelina **no van**. Quedan **nueve** beneficiarios confirmados: el-efecto-barbacoa, friends-chicken-cable, la-patateria, pizzas-beto, trattorias-y-pastificios, indecente, sushi-fusion, mar-azul (Calamar Azul) y the-boss (The Boss Burger). **El décimo cupo queda sin definir** (La Rancha sigue fuera hasta confirmación escrita). Las carpetas de los cuatro excluidos no se borran: quedan como expediente histórico.
+- **Responsable**: Nicolás (instrucción directa, 2026-10-30).
+- **Impacto contractual**: define sobre qué establecimientos se acreditan las obligaciones 2–16 y para quiénes se emiten los informes individuales (obl. 15). El soporte documental de la Cámara para las sustituciones queda pendiente de archivar; hasta entonces no reportar esas sustituciones como cierre contractual.
+- **Fuente**: instrucción directa de Nicolás en sesión del 2026-10-30.
+
 ### 2026-10-29 — Plantilla única del informe de avance de la Cámara en el harness
 - **Contexto**: la Cámara entregó el formato oficial de informe de avance (`INFORME_CAMARA_OFICIAL.docx`); la única copia quedó sin trackear en el worktree orca `sushi-manifesto-intent-flows`, y las instrucciones de llenado circulaban solo como prompt de chat.
 - **Alternativas consideradas**: referenciar la ruta del worktree orca (rechazado: workspace desechable, archivo sin commit, ruta inestable); mantener plantilla e instrucciones duplicadas (rechazado: divergencia entre copias).
@@ -23,6 +41,38 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 - **Responsable**: Nicolás (confirmó el formato 2026-10-29); ZCode consolidó.
 - **Impacto contractual**: soporta la obligación 12 (informes de avance); no cambia plazos ni alcance.
 - **Fuente**: conversación con Nicolás 2026-10-29; archivo del formato entregado por la Cámara.
+
+### 2026-10-16 — Calamar Azul sustituye a Arepas Rellenas Samu
+- **Contexto**: Nicolás informó la pérdida de Arepas Rellenas Samu y solicitó implementar Calamar Azul, sede Cable.
+- **Alternativas consideradas**: conservar a Samu activo o preservarlo como expediente histórico y usar el cupo para Calamar Azul.
+- **Decisión**: Calamar Azul reemplaza a Samu en el listado operativo de diez. Samu no se borra; Calamar Azul queda en revisión hasta soporte formal de la Cámara.
+- **Responsable**: Nicolás.
+- **Impacto contractual**: obligaciones del cupo sustituido; no acredita activación.
+- **Fuente**: instrucción directa de Nicolás, 2026-10-16.
+
+### 2026-10-16 — Calamar Azul sustituye a Arepas Rellenas Samu
+- **Contexto**: Nicolás informó la pérdida de Arepas Rellenas Samu y solicitó implementar Calamar Azul, sede Cable.
+- **Alternativas consideradas**: conservar a Samu activo o preservarlo como expediente histórico y usar el cupo para Calamar Azul.
+- **Decisión**: Calamar Azul reemplaza a Samu en el listado operativo de diez. Samu no se borra; Calamar Azul queda en revisión hasta soporte formal de la Cámara.
+- **Responsable**: Nicolás.
+- **Impacto contractual**: obligaciones del cupo sustituido; no acredita activación.
+- **Fuente**: instrucción directa de Nicolás, 2026-10-16.
+
+### 2026-10-05 — Habilitación de automatizaciones V2 para Beto's Pizza
+- **Contexto**: preparación de las secuencias de bienvenida y carta, y del agente conversacional de Beto's Pizza.
+- **Alternativas consideradas**: mantener las automatizaciones V2 deshabilitadas o habilitar por separado el editor y el motor de ejecución.
+- **Decisión**: Nicolás autorizó habilitar ambos flags por SSH para el tenant de Beto's Pizza: `automation_rule_builder_v2` y `automation_engine_v2_execute`.
+- **Responsable**: Nicolás autorizó; MY SEO aplicó y verificó.
+- **Impacto contractual**: preparación de obligaciones 4 y 5. No implica la publicación de reglas, envío de mensajes ni activación del agente IA.
+- **Fuente**: instrucción directa en esta conversación, 2026-10-05; evidencia `evidencias/pizzas-beto/vertical-restaurantes/flags-v2-2026-10-05.md`.
+
+### 2026-10-05 — Exportación controlada de conversaciones de Beto's Pizza
+- **Contexto**: se requiere revisar conversaciones reales del tenant para caracterización y parametrización del asistente de Beto's Pizza.
+- **Alternativas consideradas**: limitarse a métricas agregadas o descargar un export acotado y local.
+- **Decisión**: Nicolás autorizó explícitamente descargar en modo solo lectura las conversaciones de este único tenant. El material se conserva exclusivamente de forma local en `evidencias/pizzas-beto/conversaciones/raw/`, excluido de Git, y se usa únicamente dentro del propósito contractual.
+- **Responsable**: Nicolás.
+- **Impacto contractual**: protección de datos (Cláusula Quinta, obligaciones 22–25); aplica las salvaguardas documentadas en `SOURCES.md`.
+- **Fuente**: instrucción directa en esta conversación, 2026-10-05.
 
 ### 2026-09-12 — Correcciones tras auditoría inicial del harness
 - **Contexto**: auditoría del scaffolding recién creado identificó 6 hallazgos (3 Alta, 3 Media): criterios de aceptación laxos que permiten cierres prematuros, ausencia de tareas de post-implementación y soporte, C-02 pedía credenciales violando POLICIES, precondición del workflow 01 dependía del listado completo de la Cámara, doble estado editable entre CLIENTE.md y TASKS.md, y referencias a archivos inexistentes.
