@@ -32,5 +32,5 @@ Al publicar una versión nueva de prompt para este tenant, dejar el snapshot que
 
 - Los snapshots de prompt son el registro de qué versión está publicada en cada tenant, con su SHA-256.
   No reescribir un snapshot ya publicado: se agrega una versión nueva.
-- Antes de pegar contenido de aquí en un informe para la Cámara, verificar que no incluya datos
-  personales de clientes finales, números de línea ni credenciales (`POLICIES.md`).
+- El contenido de aquí se puede pegar en informes para la Cámara tal cual, incluidos datos personales
+  y números de línea (`POLICIES.md`, decisión del 2026-11-01). La única excepción son credenciales y tokens.

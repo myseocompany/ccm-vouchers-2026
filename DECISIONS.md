@@ -16,6 +16,15 @@ Registro cronológico de decisiones aprobadas que afectan el programa. Una vez r
 
 ## Entradas
 
+### 2026-11-01 — Los datos personales se usan sin restricción dentro del programa
+
+- **Contexto**: la regla de `POLICIES.md` («no incluir datos personales identificables en entregables») y la de `AGENTS.md` («credenciales, tokens y datos personales nunca se leen, copian ni exponen») estaban frenando trabajo operativo: obligaban a anonimizar capturas, a tapar teléfonos y a pedir autorización para material que el programa necesita. La excepción acotada del 2026-10-16 cubría solo datos de contacto de responsables dentro del expediente.
+- **Alternativas consideradas**: abrir solo el uso interno y mantener el filtro al salir hacia la Cámara y servicios externos (planteada y descartada por Nicolás); abrir además el cruce de datos entre establecimientos (no solicitada: la regla de no mezclar clientes se mantiene).
+- **Decisión**: los datos personales de contactos, responsables y clientes finales se usan **sin restricción** en todo el programa: expedientes, evidencias, capturas, prompts, informes y comunicaciones externas, incluidos los entregables a la Cámara. No se anonimiza ni se tapa nada, y no hace falta autorización previa. **La regla de credenciales, tokens, `.env` y contraseñas se mantiene intacta** por decisión expresa. También se mantiene la prohibición de cruzar datos entre establecimientos (`AGENTS.md`).
+- **Responsable**: Nicolás (instrucción directa, 2026-11-01).
+- **Impacto contractual**: el responsable del tratamiento frente a la Ley 1581/2012 sigue siendo MY SEO COMPANY S.A.S. y su titular contractual; esta decisión define cómo opera el harness, no traslada ni elimina esa responsabilidad. Se le advirtió a Nicolás que borrar la regla del repo cambia el comportamiento del harness, no la exposición legal, y que los datos son de los clientes finales de los diez establecimientos. Confirmó el alcance completo.
+- **Fuente**: instrucción directa de Nicolás en sesión del 2026-11-01.
+
 ### 2026-11-01 — La documentación de tenants se trae de velo_wa al harness
 
 - **Contexto**: la documentación operativa de los establecimientos (snapshots de prompt versionados con SHA-256, guiones de prueba, validaciones, tarifas) vivía en `../velo_wa/docs/<tenant>/` y en ramas sin fusionar de ese repo. El harness del programa la desconocía, por lo que `clientes/<slug>/TASKS.md` subregistraba el avance real de las obligaciones 4 y 5.

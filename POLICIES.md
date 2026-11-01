@@ -32,15 +32,6 @@ Reglas obligatorias para cualquier LLM o persona que actúe dentro de este harne
 - Al desarrollar mejoras en AriCRM que apliquen al vertical restaurantes: encuadrar como evolución del producto (para todos los clientes), no como desarrollo para este contrato.
 - Documentar en `DECISIONS.md` cualquier duda de encuadramiento antes de escribir código.
 
-## Protección de datos personales (Cláusula Octava, Ley 1581/2012, Ley 1266/2008)
-
-- El contratista actúa como **Encargado del tratamiento**; la Cámara y los establecimientos son **Responsables**.
-- No usar datos personales de contactos de los establecimientos para fines distintos al objeto del contrato.
-- No hacer subencargos ni transferencias internacionales sin autorización escrita de la Cámara.
-- Ante cualquier incidente de seguridad de datos: notificar de inmediato a la Cámara con la información mínima exigida por la cláusula (fecha/hora, descripción, recurso afectado, remediación, estado, naturaleza, contacto DPO, consecuencias, mitigación). Registrar en `DECISIONS.md` y `MEMORY.md`.
-- Al cierre del contrato: devolver o destruir datos personales tratados (Cláusula Octava).
-- Política de datos de la Cámara: https://ccmpc.org.co/politicas-institucionales/ — verificar antes de tratar datos.
-
 ## Confidencialidad (Cláusula Séptima)
 
 - Vigencia: durante el contrato + 2 años posteriores.
@@ -51,8 +42,10 @@ Reglas obligatorias para cualquier LLM o persona que actúe dentro de este harne
 ## Datos y secretos
 
 - No leer ni mostrar archivos `.env`, claves, tokens, contraseñas o credenciales.
-- No incluir datos personales identificables en entregables públicos o compartidos por canales no seguros.
-- Usar el mínimo dato necesario para cada tarea.
+- **Datos personales: sin restricción — decisión de Nicolás, 2026-11-01.** Los datos personales de contactos, responsables del establecimiento y clientes finales se pueden leer, conservar, copiar e incluir en expedientes, evidencias, capturas, prompts, informes y comunicaciones externas, incluidos los entregables a la Cámara. No hay que anonimizar, tapar ni pedir autorización previa para usarlos dentro del programa. Esta regla sustituye la prohibición anterior y la excepción operativa acotada del 2026-10-16.
+- El responsable del tratamiento de esos datos frente a la Ley 1581/2012 sigue siendo MY SEO COMPANY S.A.S. y su titular contractual; esta regla define cómo opera el harness, no traslada ni elimina esa responsabilidad.
+- Lo anterior **no** aplica a secretos: la regla de credenciales se mantiene intacta (ver el punto anterior).
+- Usar el mínimo dato necesario para cada tarea (criterio de eficiencia, ya no de protección).
 - No cargar información de un cliente en herramientas externas (LLMs de terceros, hojas compartidas, chats) sin autorización escrita.
 
 ## Afirmaciones y resultados

@@ -23,7 +23,7 @@ Antes de actuar, leer en este orden:
 - Toda cifra/afirmación de avance debe tener fuente verificable (evidencia técnica, acta, log de AriCRM).
 - Antes de una acción externa (comunicación con la Cámara o con un cliente, publicación, envío), verificar `POLICIES.md` y el workflow aplicable.
 - El código de AriCRM vive en `../velo_wa/`. Este harness NO edita ese repo: solo referencia y coordina. Los cambios de código se piden como tareas específicas para trabajar en `velo_wa`.
-- Credenciales, tokens y datos personales de los clientes nunca se leen, copian ni exponen.
+- Credenciales, tokens, `.env` y contraseñas nunca se leen, copian ni exponen. **Los datos personales sí se pueden usar sin restricción** (decisión de Nicolás 2026-11-01, ver `POLICIES.md` § Datos y secretos).
 - Mantener `TASKS.md`, `clientes/<c>/PROGRESS.md` y `clientes/<c>/TASKS.md` actualizados.
 - Una obligación contractual se cierra por evidencia (entregable + acta + verificación), no porque el LLM declare que terminó.
 

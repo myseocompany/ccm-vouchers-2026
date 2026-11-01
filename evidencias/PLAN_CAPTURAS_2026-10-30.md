@@ -12,8 +12,8 @@ Consecuencia: **ninguna obligación tiene hoy evidencia visual que acredite avan
 
 - Ruta y nombre: `evidencias/<slug>/<carpeta>/<asunto>-<YYYY-MM-DD>.png`. Un archivo por afirmación del informe.
 - Tomar la captura con la interfaz de AriCRM visible e identificable (nombre del tenant o sede en pantalla).
-- **Antes de archivar, tapar** teléfonos, correos, nombres y mensajes de clientes finales. `POLICIES.md`: no se exponen datos personales ni contactos.
-- Nunca capturar pantallas con tokens, contraseñas, claves de API ni paneles de credenciales.
+- **No hay que tapar datos personales**: teléfonos, correos, nombres y mensajes de clientes finales pueden quedar visibles en la captura (`POLICIES.md`, decisión del 2026-11-01).
+- Nunca capturar pantallas con tokens, contraseñas, claves de API ni paneles de credenciales. Esa regla sigue vigente.
 - No mezclar capturas entre clientes: cada archivo va en la carpeta de su `<slug>`.
 - Si una toma no se puede obtener, no inventarla: registrarla como faltante en el informe (`[PENDIENTE: <qué falta>]`).
 
