@@ -19,8 +19,9 @@ Levantamiento de obligación 2, consolidado el 2026-10-16. Los datos son reporta
 
 - Existe un catálogo mediante enlace de WhatsApp, con fotos y precios por plato. Se recibieron 26 capturas; falta URL y matriz estructurada vigente.
 - Categorías reportadas: arroces, cazuelas, pescados, almuerzos y especialidades de la casa.
-- Cambia normalmente una vez al año, por precios; puede añadir platos ocasionalmente.
-- El almuerzo ejecutivo mantiene cinco opciones de pescado, cuesta $26.000 y puede agotarse antes de las 3:00 p. m. No hay integración de inventario.
+- Cambia normalmente una vez al año, por precios; puede añadir platos ocasionalmente. **Actualizado 2026-10-31**: confirmado expresamente por el establecimiento — **no cambia el menú a diario; tiene el mismo menú todos los días**, y el ejecutivo mantiene siempre las mismas cinco opciones.
+- El almuerzo ejecutivo mantiene cinco opciones de pescado, cuesta $26.000 y puede agotarse antes de las 3:00 p. m. No hay integración de inventario. **Actualizado 2026-10-31**: composición y bebida confirmadas por el establecimiento — filete apanado, bagre, mojarra, sierra o trucha, con sopa de pescado, arroz de coco, patacón, ensalada y **agua de panela con limón**; $26.000, solo hasta las 3:00 p. m. Fuente canónica: `../../evidencias/mar-azul/vertical-restaurantes/almuerzo-ejecutivo-2026-10-31.md`.
+- **Actualizado 2026-10-31**: acompañantes confirmados — los platos de carta van sin sopa ni bebida; cazuelas, sancocho, pescados de carta y especialidades llevan arroz, patacón y ensalada (excepciones: ensalada Brisa del Mar y mix de mariscos, solo arroz y patacón); los arroces llevan patacón y ensalada (la paella, patacón con queso); los ceviches, galletas de soda. Fuente canónica: `../../evidencias/mar-azul/vertical-restaurantes/acompanantes-carta-2026-10-31.md`.
 
 ## 4. Pedidos y pagos
 
@@ -40,7 +41,7 @@ Levantamiento de obligación 2, consolidado el 2026-10-16. Los datos son reporta
 ## 6. Brechas digitales priorizadas
 
 1. Falta matriz validada de productos, precios, variantes y agotados; impacto: atención consistente y pedido guiado.
-2. Almuerzo ejecutivo con hora de corte y stock variable sin inventario; impacto: evitar promesas de disponibilidad no verificable.
+2. Almuerzo ejecutivo con hora de corte y stock variable sin inventario; impacto: evitar promesas de disponibilidad no verificable. **Actualizado 2026-10-31**: la definición quedó confirmada y documentada como fuente canónica (incluida la bebida); la verificación de disponibilidad sigue dependiendo de caja.
 3. Domicilios sin tarifa estandarizada y pagos vulnerables a fraude; impacto: impedir cotizaciones/cobros erróneos y escalar a caja. **Parcialmente cerrada 2026-10-30**: la tarifa quedó estandarizada en datos (266 tarifas en producción), pero el prompt no las consulta, así que el efecto para el cliente es el mismo. La vulnerabilidad de pagos sigue abierta.
 4. Reglas de reserva y decoración con valor ambiguo; impacto: evitar cobros y expectativas incorrectas. **Parcialmente cerrada 2026-10-30**: valores y franja confirmados; falta el procedimiento de cobro y corregir el prompt.
 
@@ -67,8 +68,12 @@ Este documento es el levantamiento del 2026-10-16 y no se reescribe: los cambios
 | 2026-10-30 | Tabla oficial barrio→tarifa cargada a producción (133 por sede); placeholders de onboarding eliminados | 4, 6, 8 | `../../evidencias/mar-azul/vertical-restaurantes/domicilios/` |
 | 2026-10-30 | Franja de reserva con tope de 4:30 p. m., eventos empresariales fuera de franja y valores desambiguados | 5, 6, 8 | `../../evidencias/mar-azul/vertical-restaurantes/reservas-2026-10-30.md` |
 | 2026-10-30 | Prompt de producción editado por fuera del repo; capturado como línea base v5 con hash verificado | — | `../../evidencias/mar-azul/ia-conversacional/prompt-v5-recuperada-produccion-2026-10-30.md` |
+| 2026-10-31 | Almuerzo ejecutivo: composición, bebida (agua de panela con limón), precio y horario confirmados por el establecimiento | 3, 6 | `../../evidencias/mar-azul/vertical-restaurantes/almuerzo-ejecutivo-2026-10-31.md` |
+| 2026-10-31 | Acompañantes de los platos de carta confirmados (sin sopa ni bebida; reglas por categoría con excepciones) | 3 | `../../evidencias/mar-azul/vertical-restaurantes/acompanantes-carta-2026-10-31.md` |
+| 2026-10-31 | Menú fijo confirmado: el establecimiento no cambia el menú a diario; el ejecutivo mantiene siempre las mismas cinco opciones | 3 | `../../evidencias/mar-azul/vertical-restaurantes/almuerzo-ejecutivo-2026-10-31.md` (sección «Menú fijo») |
+| 2026-10-31 | Correcciones por plato (Cayana, patacón marinero, pasta marinera) y decisión de no usar `get_daily_menu` en el tenant | 3 | `../../evidencias/mar-azul/vertical-restaurantes/acompanantes-carta-2026-10-31.md` y `../../evidencias/mar-azul/vertical-restaurantes/almuerzo-ejecutivo-2026-10-31.md` |
 
-**Advertencia vigente**: el `system_prompt` en producción no refleja ninguna de las dos actualizaciones de datos anteriores. No reportar las brechas 3 y 4 como cerradas ante la Cámara hasta que exista una v6 desplegada y verificada. Detalle en `PROGRESS.md`, entradas del 2026-10-30.
+**Advertencia vigente**: el `system_prompt` en producción no refleja ninguna de las actualizaciones de datos anteriores (tarifas de domicilio y reglas de reserva del 2026-10-30) ni la definición confirmada del almuerzo ejecutivo del 2026-10-31 (composición con bebida). No reportar las brechas 3 y 4 como cerradas ante la Cámara hasta que exista una v6 desplegada y verificada. Detalle en `PROGRESS.md`, entradas del 2026-10-30 y 2026-10-31.
 
 ## Registro
 

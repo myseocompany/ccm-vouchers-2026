@@ -1,0 +1,462 @@
+[
+    {
+        "id": "01a14583-cef0-73da-af5f-704fc594b228",
+        "name": "Almuerzo ejecutivo",
+        "description": "Opciones del día: filete apanado, bagre, mojarra, sierra o trucha. Se ofrece hasta las 3:00 p. m. y está sujeto a disponibilidad del menú del día."
+    },
+    {
+        "id": "01a14583-cf09-72fb-8ddb-34912b3ff4f8",
+        "name": "Aromática de frutas",
+        "description": null
+    },
+    {
+        "id": "01a14583-cea6-70ca-be93-20db05812e6c",
+        "name": "Arroz a la marinera (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cea4-7267-b2d7-45289305af91",
+        "name": "Arroz a la marinera (pequeño)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ceae-7051-9d6e-af992bd08e72",
+        "name": "Arroz caribeño (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cead-7083-a8ab-e2de5559d1f9",
+        "name": "Arroz caribeño (pequeño)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cee6-7268-884f-8d8e126ece9a",
+        "name": "Arroz caribeño familiar",
+        "description": "Aproximadamente 6 porciones."
+    },
+    {
+        "id": "01a14583-cea2-7277-a86a-9357a973fac9",
+        "name": "Arroz con camarones (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cea0-72fc-8d6c-3246b502deb1",
+        "name": "Arroz con camarones (pequeño)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cee3-7277-8ce0-0c2e46cd03a0",
+        "name": "Arroz marinero familiar",
+        "description": "Aproximadamente 6 porciones."
+    },
+    {
+        "id": "01a14583-ceaa-708f-8960-3f69a3f475a4",
+        "name": "Arroz mixto (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cea8-72b4-a938-759976bdcd6f",
+        "name": "Arroz mixto (pequeño)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cee8-7355-940b-acf32d88beb2",
+        "name": "Arroz mixto familiar",
+        "description": "Aproximadamente 6 porciones."
+    },
+    {
+        "id": "01a14583-ce8d-70cf-adbd-f82e91fda4d5",
+        "name": "Bagre en salsa o frito (450 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce90-73c6-830a-c0badde77a6c",
+        "name": "Bagre en salsa o frito (600 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce28-7010-94ac-b255a9d89f27",
+        "name": "Brochetas de camarón con mango (2 unidades)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf17-7297-9867-96f1614ad2b2",
+        "name": "Café americano",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf14-728e-87ea-1c2d5d442cee",
+        "name": "Café expreso",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf11-71ad-9cf8-cf2118d3b7bc",
+        "name": "Café nevado (frío)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ced5-7257-b2fd-16271e6564ad",
+        "name": "Caldo peligroso",
+        "description": null
+    },
+    {
+        "id": "01a14583-cec2-73b9-a8fb-c9b11340b3db",
+        "name": "Camarones al ajillo (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cebf-7220-bef0-32423af7a3ed",
+        "name": "Camarones al ajillo (pequeño)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ced9-73db-8b46-98bef371265e",
+        "name": "Camarones apanados",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf0f-718b-825b-97538e1dfd02",
+        "name": "Capuccino",
+        "description": null
+    },
+    {
+        "id": "01a14583-cebc-7336-a0da-7c22f409fe64",
+        "name": "Cayana Mar Azul (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ceba-7165-8161-cb6dd59644b0",
+        "name": "Cayana Mar Azul (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce70-723b-baca-e647dfbf2c31",
+        "name": "Cazuela de camarones (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce6e-70d5-bb18-7a77e1df307f",
+        "name": "Cazuela de camarones (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce68-70bf-805d-463cf15c45d2",
+        "name": "Cazuela de maní (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce66-733c-affb-2cd5d9252e82",
+        "name": "Cazuela de maní (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce50-7262-b71c-52ca037c1465",
+        "name": "Cazuela de mariscos (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce4d-7283-a679-c66433929f6a",
+        "name": "Cazuela de mariscos (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce5e-71be-aee9-da23721705e0",
+        "name": "Cazuela de pescado (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce5a-728a-b256-3b368da86002",
+        "name": "Cazuela de pescado (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce75-73ce-8396-7b20588ebb32",
+        "name": "Cazuela encocado de mariscos (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce73-73f1-a4bf-93af07332a42",
+        "name": "Cazuela encocado de mariscos (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce57-7077-aaa8-8cf5634d55e6",
+        "name": "Cazuela explosión marina (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce53-732a-a39e-e6ff8ad7c07e",
+        "name": "Cazuela explosión marina (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce63-73ec-a6ea-3aba1ea95fc1",
+        "name": "Cazuela fusión de mariscos (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce61-70e9-a31c-62f63e8044a9",
+        "name": "Cazuela fusión de mariscos (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce6c-700b-abb7-38b4e9bae18e",
+        "name": "Cazuela rojo vivo (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce6a-707a-a630-8a9facf81ec0",
+        "name": "Cazuela rojo vivo (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce44-711b-9ba8-59e8581a0765",
+        "name": "Ceviche bomba (180 g)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce47-70fe-bd04-c2fa6c671351",
+        "name": "Ceviche bomba (210 g)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce38-71c0-8505-2e1597406780",
+        "name": "Ceviche de camarones (180 g)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce3b-7006-b2c1-887b678c9594",
+        "name": "Ceviche de camarones (210 g)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce3d-720d-a114-768ad8ec38fb",
+        "name": "Ceviche peruano (180 g)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce41-7167-9ffd-fd9758180a23",
+        "name": "Ceviche peruano (210 g)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf1a-7340-9e47-3da3d1fba049",
+        "name": "Cortado de leche",
+        "description": null
+    },
+    {
+        "id": "01a14583-cef6-726e-8432-f715050737bf",
+        "name": "Costillas de cerdo a la BBQ",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce9c-712b-a852-b4587a76ecf3",
+        "name": "Encocado de pescado (grande)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce99-734d-b18f-8a0ac5ed207c",
+        "name": "Encocado de pescado (pequeño)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-cedb-7034-b893-ab23a1ae7a71",
+        "name": "Ensalada Brisa del Mar",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce92-738c-8d1a-fe8d3300a3da",
+        "name": "Filete de mojarra apanado (450 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce94-73f9-a279-567485037aaa",
+        "name": "Filete de mojarra apanado (600 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce7a-71d0-8c07-ca84db450981",
+        "name": "Filete de pescado apanado (450 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce7c-72b7-a15d-f3a3ac3a3869",
+        "name": "Filete de pescado apanado (600 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-cef3-724b-b2f5-9106000d6166",
+        "name": "Filete de pollo a la plancha",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf01-71b0-824a-6c1e872f44ac",
+        "name": "Gaseosa 350 ml",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf04-701b-9c1c-2aa7646cf908",
+        "name": "Jugo natural",
+        "description": null
+    },
+    {
+        "id": "01a14583-cedd-70e0-a0c7-b7f8cdefac77",
+        "name": "Langosta",
+        "description": null
+    },
+    {
+        "id": "01a14583-ced7-73a2-a321-0dd11fcd2fec",
+        "name": "Langostinos",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf07-71fe-8cbd-6c7604941969",
+        "name": "Limonada de coco",
+        "description": null
+    },
+    {
+        "id": "01a14583-cec7-7383-aa43-b54519440724",
+        "name": "Mariscos al ajillo (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cec5-72ac-ae4e-d50923652277",
+        "name": "Mariscos al ajillo (pequeño)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cef9-7044-b916-1b1bde842987",
+        "name": "Menú infantil",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf0c-73e9-b1ce-eaeb05041b7c",
+        "name": "Milo caliente o frío",
+        "description": null
+    },
+    {
+        "id": "01a14583-ceca-728f-acdb-f470761841f7",
+        "name": "Mix oriental",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce83-72f9-8173-244699cf23bc",
+        "name": "Mojarra frita (450 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce86-71b2-8b88-6dd9dd28e05a",
+        "name": "Mojarra frita (600 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ceb2-7246-92da-fd0a792bc658",
+        "name": "Paella (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ceb0-7106-ba69-e5b4a781ddd4",
+        "name": "Paella (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ceeb-73ce-be5c-da5eb7047964",
+        "name": "Paella familiar",
+        "description": "Aproximadamente 6 porciones."
+    },
+    {
+        "id": "01a14583-ced0-7263-befa-943a1e53d208",
+        "name": "Pasta a la marinera (grande)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cece-73ec-a10f-f3d0412a1566",
+        "name": "Pasta a la marinera (pequeña)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce25-712d-b31c-c70c7fce7195",
+        "name": "Patacón con queso (2 unidades)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cecc-718d-9c58-9e8b251e4818",
+        "name": "Patacón marinero",
+        "description": null
+    },
+    {
+        "id": "01a14583-cede-7205-8c98-bf16188ea53c",
+        "name": "Porción adicional de pescado (tamaño menú ejecutivo)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce2a-707f-923a-224638fcafa2",
+        "name": "Porción de arroz (blanco o de coco)",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce31-7140-9d5f-50c9f0372d90",
+        "name": "Porción de ensalada",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce2c-7148-b1df-98538a4c1af2",
+        "name": "Porción de papa a la francesa",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce2e-70ae-92ed-447b25632cea",
+        "name": "Porción de patacón (2 unidades)",
+        "description": null
+    },
+    {
+        "id": "01a14583-cf1d-73d4-9351-e667b20e7314",
+        "name": "Postre del día",
+        "description": null
+    },
+    {
+        "id": "01a14583-cefc-72ef-9197-3e29650997dc",
+        "name": "Punta de Anca",
+        "description": null
+    },
+    {
+        "id": "01a14583-ceb5-704d-aabc-b974a2873028",
+        "name": "Risotto de mariscos",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce96-721f-b23b-f26ba19b3999",
+        "name": "Salmón a la plancha (250 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ced3-736c-8a1e-30a0c135aa8c",
+        "name": "Sancocho de bagre",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce89-7324-b2ca-fc9d123bc482",
+        "name": "Sierra frita (450 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce8b-70d7-ad59-a4805096e81f",
+        "name": "Sierra frita (600 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce20-737f-815a-79f7a34f7ff2",
+        "name": "Sopa de pescado",
+        "description": null
+    },
+    {
+        "id": "01a14583-ce7e-701e-a36f-f46d209d6412",
+        "name": "Trucha frita (450 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    },
+    {
+        "id": "01a14583-ce81-7294-81c0-d469da706f06",
+        "name": "Trucha frita (600 g)",
+        "description": "Acompañado de arroz de coco, patacón y ensalada. Cambios de acompañamiento sujetos a validación de caja."
+    }
+]

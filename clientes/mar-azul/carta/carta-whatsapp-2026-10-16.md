@@ -1,6 +1,10 @@
 # Carta WhatsApp — Mar Azul
 
 > **Borrador de transcripción para configuración del canal WhatsApp.** Fuente: 26 capturas suministradas en `~/Desktop/carta_whatsApp/`, consultadas el 2026-10-16. Los precios y la disponibilidad deben ser confirmados por Mar Azul antes de cargarlos o enviarlos a clientes.
+>
+> **Nota 2026-10-31**: el almuerzo ejecutivo fue confirmado por el establecimiento incluyendo la bebida (agua de panela con limón), no visible en las capturas. Definición canónica: `../../../evidencias/mar-azul/vertical-restaurantes/almuerzo-ejecutivo-2026-10-31.md`.
+>
+> **Nota 2026-10-31 (2)**: reglas de acompañantes por categoría confirmadas por el establecimiento (platos de carta sin sopa ni bebida; excepciones y correcciones por plato — p. ej., la Cayana Mar Azul lleva arroz y ensalada, no «arroz de coco, patacón y ensalada» como se lee en las capturas). Fuente canónica: `../../../evidencias/mar-azul/vertical-restaurantes/acompanantes-carta-2026-10-31.md`.
 
 ## Entradas y porciones
 
