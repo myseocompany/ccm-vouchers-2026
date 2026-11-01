@@ -1,0 +1,730 @@
+{
+  "fuente": "tarifas-flash-delivery-alta-suiza-2026.pdf",
+  "operador": "Flash Delivery Manizales (302 798 2676)",
+  "origen": "Alta Suiza",
+  "moneda": "COP",
+  "nota": "Las tarifas varían con servicios especiales, pesados y datáfono. Zonas en rojo en el PDF: consultar disponibilidad, evitar entregas por escalas (marca no cargada en el sistema).",
+  "total": 180,
+  "tarifas": [
+    {
+      "barrio": "20 de julio",
+      "price": 9000
+    },
+    {
+      "barrio": "Cable Plaza",
+      "price": 6000
+    },
+    {
+      "barrio": "Kennedy",
+      "price": 6500
+    },
+    {
+      "barrio": "San Cayetano",
+      "price": 7000
+    },
+    {
+      "barrio": "Aeropuerto La Nubia",
+      "price": 9500
+    },
+    {
+      "barrio": "Cerro De Oro",
+      "price": 6000
+    },
+    {
+      "barrio": "La Linda",
+      "price": 17000
+    },
+    {
+      "barrio": "San Isidro",
+      "price": 12000
+    },
+    {
+      "barrio": "Agustinos",
+      "price": 8500
+    },
+    {
+      "barrio": "Cervantes",
+      "price": 8000
+    },
+    {
+      "barrio": "Laureles",
+      "price": 5500
+    },
+    {
+      "barrio": "San Joaquin",
+      "price": 8000
+    },
+    {
+      "barrio": "Alamos",
+      "price": 7500
+    },
+    {
+      "barrio": "Chipre",
+      "price": 9000
+    },
+    {
+      "barrio": "Leonora",
+      "price": 6000
+    },
+    {
+      "barrio": "San Marcel",
+      "price": 8000
+    },
+    {
+      "barrio": "Albania",
+      "price": 9000
+    },
+    {
+      "barrio": "Colinas",
+      "price": 8000
+    },
+    {
+      "barrio": "Liborio",
+      "price": 9000
+    },
+    {
+      "barrio": "San Rafael",
+      "price": 5000
+    },
+    {
+      "barrio": "Alcazares",
+      "price": 10000
+    },
+    {
+      "barrio": "Colombia",
+      "price": 7000
+    },
+    {
+      "barrio": "Linares",
+      "price": 7500
+    },
+    {
+      "barrio": "San Sebastia",
+      "price": 9000
+    },
+    {
+      "barrio": "Alferez real",
+      "price": 8500
+    },
+    {
+      "barrio": "Colseguros",
+      "price": 5000
+    },
+    {
+      "barrio": "Lleras",
+      "price": 7000
+    },
+    {
+      "barrio": "Santa Helena",
+      "price": 7500
+    },
+    {
+      "barrio": "Alhambra",
+      "price": 10000
+    },
+    {
+      "barrio": "Comuneros",
+      "price": 7000
+    },
+    {
+      "barrio": "Lusitania",
+      "price": 9000
+    },
+    {
+      "barrio": "Santa Sofia",
+      "price": 10000
+    },
+    {
+      "barrio": "Alta Suiza",
+      "price": 5000
+    },
+    {
+      "barrio": "Conju La Estacion",
+      "price": 7500
+    },
+    {
+      "barrio": "Malhabar",
+      "price": 8000
+    },
+    {
+      "barrio": "Santos",
+      "price": 8500
+    },
+    {
+      "barrio": "Alto Del Perro",
+      "price": 6000
+    },
+    {
+      "barrio": "Chec Manizales",
+      "price": 15000
+    },
+    {
+      "barrio": "Mall Plaza",
+      "price": 6500
+    },
+    {
+      "barrio": "Sinai",
+      "price": 7500
+    },
+    {
+      "barrio": "Alto Tablazo",
+      "price": 13000
+    },
+    {
+      "barrio": "Cuchilla De Los Santa",
+      "price": 13000
+    },
+    {
+      "barrio": "Malteria 1",
+      "price": 10000
+    },
+    {
+      "barrio": "Solferino",
+      "price": 8000
+    },
+    {
+      "barrio": "Altos De Capri",
+      "price": 7000
+    },
+    {
+      "barrio": "Cuchilla Del Salado",
+      "price": 15000
+    },
+    {
+      "barrio": "Malteria 2",
+      "price": 13000
+    },
+    {
+      "barrio": "Sultana",
+      "price": 5500
+    },
+    {
+      "barrio": "Altos De Granada",
+      "price": 6000
+    },
+    {
+      "barrio": "Cumbre",
+      "price": 6500
+    },
+    {
+      "barrio": "Marmato",
+      "price": 8500
+    },
+    {
+      "barrio": "Tejares De Milan",
+      "price": 6000
+    },
+    {
+      "barrio": "Americas",
+      "price": 8500
+    },
+    {
+      "barrio": "Daniela",
+      "price": 6000
+    },
+    {
+      "barrio": "Milan",
+      "price": 5000
+    },
+    {
+      "barrio": "TeleCafé",
+      "price": 7500
+    },
+    {
+      "barrio": "Aranjuez",
+      "price": 9000
+    },
+    {
+      "barrio": "Delicias",
+      "price": 8000
+    },
+    {
+      "barrio": "Minitas",
+      "price": 6000
+    },
+    {
+      "barrio": "Termales Del Otoño",
+      "price": 20000
+    },
+    {
+      "barrio": "Arboleda",
+      "price": 7000
+    },
+    {
+      "barrio": "El Sol",
+      "price": 6500
+    },
+    {
+      "barrio": "Molinos",
+      "price": 11000
+    },
+    {
+      "barrio": "Terminal Antiguo",
+      "price": 8500
+    },
+    {
+      "barrio": "Argentina",
+      "price": 6500
+    },
+    {
+      "barrio": "El Topacio",
+      "price": 11000
+    },
+    {
+      "barrio": "Morrogacho",
+      "price": 12000
+    },
+    {
+      "barrio": "Terminal Nuevo",
+      "price": 10000
+    },
+    {
+      "barrio": "Arrayanes",
+      "price": 8000
+    },
+    {
+      "barrio": "El Trebol",
+      "price": 6500
+    },
+    {
+      "barrio": "Nevado",
+      "price": 8500
+    },
+    {
+      "barrio": "Torres De San Jose",
+      "price": 9500
+    },
+    {
+      "barrio": "Asturias",
+      "price": 10000
+    },
+    {
+      "barrio": "Enea",
+      "price": 8500
+    },
+    {
+      "barrio": "Nogales",
+      "price": 9500
+    },
+    {
+      "barrio": "Toscana",
+      "price": 5500
+    },
+    {
+      "barrio": "Asuncion",
+      "price": 6500
+    },
+    {
+      "barrio": "Estacion Uribe 1",
+      "price": 12000
+    },
+    {
+      "barrio": "Palermo",
+      "price": 5500
+    },
+    {
+      "barrio": "Trivento",
+      "price": 10000
+    },
+    {
+      "barrio": "Aurora",
+      "price": 15000
+    },
+    {
+      "barrio": "Estacion Uribe 2",
+      "price": 15000
+    },
+    {
+      "barrio": "Palmar",
+      "price": 7500
+    },
+    {
+      "barrio": "Turin Villamaria",
+      "price": 12000
+    },
+    {
+      "barrio": "Bajo Tablazo",
+      "price": 15000
+    },
+    {
+      "barrio": "Estambul",
+      "price": 10000
+    },
+    {
+      "barrio": "Palo Grande",
+      "price": 5500
+    },
+    {
+      "barrio": "Uribe",
+      "price": 7000
+    },
+    {
+      "barrio": "Batallon Ayacucho",
+      "price": 5500
+    },
+    {
+      "barrio": "Estambul Villa Jardin",
+      "price": 10000
+    },
+    {
+      "barrio": "Palo Negro",
+      "price": 7500
+    },
+    {
+      "barrio": "Velez",
+      "price": 7000
+    },
+    {
+      "barrio": "Bavaria",
+      "price": 7000
+    },
+    {
+      "barrio": "Estrella",
+      "price": 5500
+    },
+    {
+      "barrio": "Panamericana",
+      "price": 10000
+    },
+    {
+      "barrio": "Vera Cruz",
+      "price": 13000
+    },
+    {
+      "barrio": "Belen",
+      "price": 6000
+    },
+    {
+      "barrio": "Eucaliptos",
+      "price": 8000
+    },
+    {
+      "barrio": "Panorama",
+      "price": 9500
+    },
+    {
+      "barrio": "Vereda Buena Vista",
+      "price": 11000
+    },
+    {
+      "barrio": "Bella Suiza",
+      "price": 5500
+    },
+    {
+      "barrio": "Expoferias",
+      "price": 6500
+    },
+    {
+      "barrio": "Paraiso",
+      "price": 8500
+    },
+    {
+      "barrio": "Vereda El Arenillo 1",
+      "price": 13000
+    },
+    {
+      "barrio": "Bengala",
+      "price": 8000
+    },
+    {
+      "barrio": "Fanny G - Peralonso",
+      "price": 7000
+    },
+    {
+      "barrio": "Parque De Castilla",
+      "price": 7500
+    },
+    {
+      "barrio": "Vereda El Arenillo 2",
+      "price": 15000
+    },
+    {
+      "barrio": "Bosque",
+      "price": 9000
+    },
+    {
+      "barrio": "Fatima",
+      "price": 6500
+    },
+    {
+      "barrio": "Persia Alto",
+      "price": 7500
+    },
+    {
+      "barrio": "Versalles",
+      "price": 7000
+    },
+    {
+      "barrio": "Bosque Popular",
+      "price": 7500
+    },
+    {
+      "barrio": "Floresta 1 Villamaria",
+      "price": 13000
+    },
+    {
+      "barrio": "Persia Bajo",
+      "price": 8000
+    },
+    {
+      "barrio": "Villa Café La Carola",
+      "price": 6000
+    },
+    {
+      "barrio": "Bosques De Encenillo",
+      "price": 7500
+    },
+    {
+      "barrio": "Floresta 2 Villamaria",
+      "price": 15000
+    },
+    {
+      "barrio": "Pio XII",
+      "price": 7000
+    },
+    {
+      "barrio": "Villa Café Minitas",
+      "price": 6000
+    },
+    {
+      "barrio": "Bosques De Niza",
+      "price": 6000
+    },
+    {
+      "barrio": "Florida",
+      "price": 9500
+    },
+    {
+      "barrio": "Porvenir",
+      "price": 7000
+    },
+    {
+      "barrio": "Villa Carmenza",
+      "price": 8000
+    },
+    {
+      "barrio": "Bosques Del Norte",
+      "price": 8500
+    },
+    {
+      "barrio": "Florida El Retiro",
+      "price": 10000
+    },
+    {
+      "barrio": "Pradera Villamaria",
+      "price": 12000
+    },
+    {
+      "barrio": "Villa Del Rio",
+      "price": 6000
+    },
+    {
+      "barrio": "Cable",
+      "price": 5500
+    },
+    {
+      "barrio": "Francia",
+      "price": 10000
+    },
+    {
+      "barrio": "Prado",
+      "price": 7500
+    },
+    {
+      "barrio": "Villa Hermosa",
+      "price": 6500
+    },
+    {
+      "barrio": "Camelia",
+      "price": 5500
+    },
+    {
+      "barrio": "Fundadores",
+      "price": 8000
+    },
+    {
+      "barrio": "Primavera",
+      "price": 6500
+    },
+    {
+      "barrio": "Villa Julia",
+      "price": 8500
+    },
+    {
+      "barrio": "Camilo Torres",
+      "price": 8000
+    },
+    {
+      "barrio": "Gaitan Villamaria",
+      "price": 12000
+    },
+    {
+      "barrio": "Puertas Del Sol",
+      "price": 10000
+    },
+    {
+      "barrio": "Villa kempis",
+      "price": 9500
+    },
+    {
+      "barrio": "Campin",
+      "price": 7000
+    },
+    {
+      "barrio": "Galan",
+      "price": 9000
+    },
+    {
+      "barrio": "Quinta Hispania",
+      "price": 10000
+    },
+    {
+      "barrio": "Villa Luz",
+      "price": 6500
+    },
+    {
+      "barrio": "Campo Hermoso",
+      "price": 9000
+    },
+    {
+      "barrio": "Galeria",
+      "price": 8500
+    },
+    {
+      "barrio": "Rambla",
+      "price": 5500
+    },
+    {
+      "barrio": "Villa Nueva",
+      "price": 7500
+    },
+    {
+      "barrio": "Campoamor",
+      "price": 8000
+    },
+    {
+      "barrio": "Gallinazo",
+      "price": 14000
+    },
+    {
+      "barrio": "Renault Minuto",
+      "price": 6000
+    },
+    {
+      "barrio": "Viveros",
+      "price": 6000
+    },
+    {
+      "barrio": "Caribe",
+      "price": 7000
+    },
+    {
+      "barrio": "Girasoles",
+      "price": 8000
+    },
+    {
+      "barrio": "Reserva Campestre",
+      "price": 10000
+    },
+    {
+      "barrio": "Villamaria Parque",
+      "price": 11000
+    },
+    {
+      "barrio": "Carmen",
+      "price": 9000
+    },
+    {
+      "barrio": "Gonzales",
+      "price": 7500
+    },
+    {
+      "barrio": "Rincon De La Francia",
+      "price": 12000
+    },
+    {
+      "barrio": "Villamaria 2",
+      "price": 12000
+    },
+    {
+      "barrio": "Carola",
+      "price": 6000
+    },
+    {
+      "barrio": "Granjas De Estambul",
+      "price": 10000
+    },
+    {
+      "barrio": "Rosales",
+      "price": 6000
+    },
+    {
+      "barrio": "Villa Pilar",
+      "price": 10000
+    },
+    {
+      "barrio": "Castellana",
+      "price": 9000
+    },
+    {
+      "barrio": "Guamal",
+      "price": 8500
+    },
+    {
+      "barrio": "Saenz",
+      "price": 7000
+    },
+    {
+      "barrio": "Villa Pilar 2",
+      "price": 11000
+    },
+    {
+      "barrio": "Cedros",
+      "price": 7000
+    },
+    {
+      "barrio": "Guayacanes",
+      "price": 5500
+    },
+    {
+      "barrio": "Samaria",
+      "price": 8500
+    },
+    {
+      "barrio": "Centenario",
+      "price": 9000
+    },
+    {
+      "barrio": "Isabella",
+      "price": 8000
+    },
+    {
+      "barrio": "San Antonio",
+      "price": 8500
+    },
+    {
+      "barrio": "Centro 1",
+      "price": 8000
+    },
+    {
+      "barrio": "Isla",
+      "price": 8500
+    },
+    {
+      "barrio": "San Jorge",
+      "price": 6500
+    },
+    {
+      "barrio": "Centro 2",
+      "price": 8500
+    },
+    {
+      "barrio": "Jose Restrepo",
+      "price": 8000
+    },
+    {
+      "barrio": "San Jose",
+      "price": 8500
+    }
+  ]
+}
