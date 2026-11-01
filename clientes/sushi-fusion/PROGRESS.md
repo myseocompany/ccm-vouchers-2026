@@ -15,12 +15,26 @@ Bitácora cronológica de lo que se hizo, con evidencia. No borrar entradas: rec
 
 ## Entradas
 
+### 2026-10-28 — Preguntas de aclaración y corrección del guion de pruebas
+- **Qué se hizo**: Nicolás informó que ya había enviado por WhatsApp a Mauro ocho preguntas sobre bebidas, rolls, combos, temporada, horarios, escalamiento y alcance inicial. Se registró esa comunicación como reportada, pendiente de captura/respuesta. El documento de aclaraciones conserva esos ocho puntos como matriz de seguimiento y separa las preguntas adicionales que no estaban en el mensaje. También se ajustó el guion SU-01..SU-33 para alinearlo con el alcance del prompt v1: el bot escala total/domicilio/pago, no solicita comprobante por su cuenta y no da por confirmadas reglas comerciales aún abiertas.
+- **Obligación asociada**: preparación de la Obligación 5 (agente IA con escalamiento a humano).
+- **Responsable**: MY SEO — borrador interno pendiente de validación del establecimiento.
+- **Evidencia**: mensaje complementario listo para revisión `PREGUNTAS_ACLARACION_AGENTE_IA_2026-10-28.md`; registro `../../evidencias/sushi-fusion/comunicacion-preguntas-whatsapp-2026-10-28.md`; guion `../../evidencias/sushi-fusion/ia-conversacional/MENSAJES_PRUEBA_2026-10-28.md`.
+- **Notas**: el envío consta por reporte directo de Nicolás; falta soporte documental y respuesta del establecimiento. No se activó ni modificó el agente en producción. Los casos marcados `🔒` quedan fuera de calificación hasta recibir respuesta verificable.
+
 ### 2026-10-20 — Alta del cliente y caracterización preliminar
 - **Qué se hizo**: se creó la carpeta del cliente (`clientes/sushi-fusion/`) a partir de `_template`; se llenó `CLIENTE.md` con los datos de la Cámara + formulario; se levantó `CARACTERIZACION.md` extrayendo los requisitos del agente IA desde la reunión de onboarding y el formulario.
 - **Obligación asociada**: Obligación 2 (caracterización).
 - **Responsable**: Nicolás Navarro Rincón — MY SEO.
 - **Evidencia**: reunión `../../evidencias/sushi-fusion/reunion-caracterizacion-2026-10-20.md`; formulario `../../evidencias/sushi-fusion/formulario-caracterizacion-2026-10-20.csv`.
 - **Notas**: en la sesión se vinculó la línea de WhatsApp a AriCRM por QR en **modo escucha** (no responde aún). Caracterización **preliminar**, pendiente validación del establecimiento. Pendientes abiertos: número de la línea WA; segundo receptor de escalamiento ("los dos"); estructura de catálogo mesa vs domicilio (~400 productos, PDF de 12 MB a aligerar); hora de corte de pedidos (11:30 vs 12:00); detalle de reservas (cumpleaños, no-show, anticipación).
+
+### 2026-10-28 — Guion de mensajes de prueba del agente
+- **Qué se hizo**: se creó el guion de pruebas manuales del agente (33 casos SU-01..SU-33) calcado del formato de Friends Chicken, anclado en las conversaciones reales + catálogo + tarifas. Creado en el worktree de velo_wa (`.../chickenfriends/docs/sushi-fusion/`) y registrado aquí: `ia-conversacional/MENSAJES_PRUEBA_2026-10-28.md`.
+- **Obligación asociada**: insumo Obligación 4 (IA) — verificación previa al despliegue (Fases A/B del checklist).
+- **Responsable**: Nicolás Navarro Rincón — MY SEO.
+- **Evidencia**: `ia-conversacional/MENSAJES_PRUEBA_2026-10-28.md`.
+- **Notas**: cubre toma de pedido/asesoría, precios por canal (los ~34 homónimos), cobertura (zonas rojas → escala), pago (tarjeta=link, comprobante=humano), reservas (sushi SÍ acepta), línea mixta (no responder hilos internos) y técnicos. Se corre cuando el agente salga de modo escucha.
 
 ### 2026-10-28 — Prompt v1 consolidado, tarifas→JSON y runbook de onboarding
 - **Qué se hizo**: (1) se consolidó el prompt del agente (`ia-conversacional/prompt-v1.md`, reemplaza el borrador) con catálogo apuntando al tool del sistema y regla de canal; (2) un subagente extrajo las tarifas de domicilio del PDF a `tarifas-domicilio.json` (180 barrios, $5.000–$20.000, 0 ilegibles, 32 "zonas en rojo"); (3) se creó el runbook de onboarding del cliente (`ONBOARDING.md`) y su versión reutilizable (`../../workflows/02b_onboarding_runbook.md`).

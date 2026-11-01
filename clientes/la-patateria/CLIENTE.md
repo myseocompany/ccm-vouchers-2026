@@ -14,13 +14,13 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 ## Contactos
 
 - **Contacto principal**: Eduar Zapata de los Ríos — propietario — 3182099420 — eduarzapatadelosrios@gmail.com
-- **Contacto técnico**: _pendiente_
+- **Contacto técnico / responsable operativo AriCRM**: Javier Quinchía — líder de Servicio al Cliente — datos de contacto en el CSV de caracterización archivado.
 - **Contacto administrativo**: _pendiente_
 
 ## Alcance contractual asignado (Parágrafo Primero – Cláusula Primera)
 
 - Usuarios AriCRM: hasta 3. Nombres: _pendiente_.
-- Líneas de WhatsApp: 3. Números: _pendiente_ (principal actual: 3182099420).
+- Líneas de WhatsApp: 3. Número propuesto para conexión de línea 1 registrado en el CSV de caracterización; titular y relación con el número principal previamente reportado pendientes por confirmar. Líneas 2 y 3: pendientes.
 - Contactos disponibles: hasta 2000.
 
 ## Hitos temporales (con evidencia)
@@ -36,16 +36,16 @@ Ficha del establecimiento beneficiario. Este archivo contiene **datos** del clie
 ## Canales digitales existentes (obligación 6)
 
 - WhatsApp (número principal actual): 3182099420
-- Instagram: _pendiente_
-- Facebook: _pendiente_
-- Web / dominio propio: _pendiente_
+- Instagram: reportado como existente; URL pendiente de verificación.
+- Facebook: reportado como existente; URL pendiente de verificación.
+- Web / dominio propio: reportado como existente; URL pendiente de verificación.
 - Otros: _pendiente_
 
 ## Restricciones específicas del cliente
 
-- Horarios de operación: _pendiente_
-- Zonas de cobertura de domicilios: _pendiente_
-- Métodos de pago aceptados: _pendiente_
+- Horarios de operación reportados: lunes a jueves 12:00–21:00; viernes y sábado 12:00–22:00; domingo 12:00–20:00. Vigencia y sede pendientes de confirmar.
+- Zonas de cobertura de domicilios: servicio tercerizado con tabla de tarifas; se reporta que Pereira no tiene domicilios. Zonas y sedes pendientes de confirmar.
+- Métodos de pago aceptados: domicilio mediante enlace de pago y efectivo; local mediante datáfono, efectivo y QR (reportado, pendiente validar vigencia).
 - Restricciones legales/sanitarias: _pendiente_
 - Otras: sin sede física operativa; pérdida total de infraestructura, mobiliario, equipos, menaje y mercancía (ver contexto abajo)
 
