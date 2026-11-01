@@ -39,3 +39,11 @@ Thumbs.db
 
 # Graphify analysis cache — not part of the harness
 graphify-out/
+# Exportes locales con conversaciones de clientes; no versionar datos personales.
+evidencias/*/conversaciones/raw/
+# 185 MB de video descargado de Instagram de un cliente fuera del cupo; insumo reemplazable.
+clientes/arepas-rellenas-samu/instagram/media/
+# Carpeta de paso para material en transito.
+tmp/
+# Archivo vacio de trabajo.
+untitled.md
